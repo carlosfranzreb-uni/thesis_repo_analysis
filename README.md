@@ -10,8 +10,26 @@ Here is a cheat sheet with the possible queries, created by Richard Urban.
 
 ![OAI-PMH cheat sheet](docs/oai-pmh_sheet.jpg)
 
-## DepositOnce's API
+### DepositOnce - TU's repository
 
 [Here](https://www.szf.tu-berlin.de/menue/dienste_tools/repositorium_depositonce/leitfaden_fuer_depositonce/#c776530) are the guidelines from the TUB's website.
 
-The base URL is https://depositonce.tu-berlin.de/oai/request.
+The base URL is https://depositonce.tu-berlin.de/oai.
+
+### edoc-Server - HU's repository
+
+[Here](https://edoc-info.hu-berlin.de/de/nutzung/nutzung_doku) are the guidelines for the HU's repository.
+
+The base URL is https://edoc.hu-berlin.de/oai.
+
+### Refubium - FU's repository
+
+[Here](https://refubium.fu-berlin.de/) are the guidelines for the HU's repository.
+
+The base URL is https://refubium.fu-berlin.de/oai.
+
+## Important data files
+
+Here are brief descriptions of what the relevant data files contain. They are all stored in the folder `data/json`.
+
+1. `subjects.json`: dictionary with the subjects as keys and a list of identifiers as values. The identifiers in the list refer to the publications that contain that subject in their metadata.
