@@ -30,7 +30,7 @@ class Harvester:
     cnt = 1
     res = self.request('ListRecords')
     while not done:
-      with open(f'data/publications_{cnt}.xml', 'w', encoding='utf8') as f:
+      with open(f'{self.folder}/publications_{cnt}.xml', 'w', encoding='utf8') as f:
         f.write(res.text)
       cnt += 1
       token = self.get_resumption_token(res.text)
@@ -47,8 +47,8 @@ class Harvester:
 
 
 if __name__ == "__main__":
-  # harvester = Harvester(
-  #   'https://depositonce.tu-berlin.de/oai/request',
-  #   'data/depositonce'
-  # )
-  # harvester.retrieve_all()
+  harvester = Harvester(
+    'https://refubium.fu-berlin.de/oai/request',
+    'data/xml/refubium'
+  )
+  harvester.retrieve_all()
