@@ -1,5 +1,8 @@
 """Retrieve any field of the publications and create a dict with them
-as keys and their publications as a list of values. """
+as keys and their publications as a list of values. 
+
+extract_info() is relevant for contributors, where there are contact e-mails
+and single letters. """
 
 import os
 import xml.etree.ElementTree as ET
@@ -34,7 +37,7 @@ def retrieve_fields(folder, dump, field):
       except AttributeError:
         print(f, id)
         import sys; sys.exit(0)
-  json.dump(fields, open(dump, 'w'))
+  json.dump(extract_info(fields), open(dump, 'w'))
 
 
 def retrieve_fields_reversed(folder, dump, field):
@@ -57,12 +60,32 @@ def retrieve_fields_reversed(folder, dump, field):
       except AttributeError:
         print(f, id)
         import sys; sys.exit(0)
-  json.dump(publications, open(dump, 'w'))
+  json.dump(extract_info(publications), open(dump, 'w'))
+
+
+def extract_info(data):
+  """Remove emails and texts with less than five characters. """
+  clean = dict()
+  for key in data:
+    if len(key) > 4:
+      if '@' in key and '.' in key:
+        print(key)
+      else:
+        clean[key] = list()
+  print(f'{len(data) - len(clean)} keys were removed.')
+  for key in clean:
+    for val in data[key]:
+      if len(val) > 4:
+        if '@' in val and '.' in val:
+          print(val)
+        else:
+          clean[key].append(val)
+  return clean
 
 
 if __name__ == "__main__":
-  dump = 'data/json/refubium/contributors.json'
-  dump_r = 'data/json/refubium/contributors_reversed.json'
+  dump = 'data/json/edoc/contributors.json'
+  dump_r = 'data/json/edoc/contributors_reversed.json'
   field = f'{dc}contributor'
-  retrieve_fields('data/xml/refubium', dump, field)
-  retrieve_fields_reversed('data/xml/refubium', dump_r, field)
+  retrieve_fields('data/xml/edoc', dump, field)
+  retrieve_fields_reversed('data/xml/edoc', dump_r, field)
