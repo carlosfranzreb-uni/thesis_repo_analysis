@@ -33,3 +33,13 @@ The base URL is https://refubium.fu-berlin.de/oai.
 Here are brief descriptions of what the relevant data files contain. They are all stored in the folder `data/json`.
 
 1. `subjects.json`: dictionary with the subjects as keys and a list of identifiers as values. The identifiers in the list refer to the publications that contain that subject in their metadata.
+
+## Open questions
+
+### Can I mine the PDFs?
+
+Looking at the most popular licenses, I couldn't find any constraint to such uses, but several papers mention the legal barriers to text mining.
+
+### How can I evaluate the models?
+
+My first idea is combining authors, publishers and the author keywords.
