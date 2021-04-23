@@ -36,10 +36,19 @@ Here are brief descriptions of what the relevant data files contain. They are al
 
 ## Open questions
 
+### Language
+
+Even german publications seem to have an english description. My plan is to discard german texts altogether and focus on english ones. Going bilingual would increase the engineering workload without adding any value to my research.
+
 ### Can I mine the PDFs?
 
-Looking at the most popular licenses, I couldn't find any constraint to such uses, but several papers mention the legal barriers to text mining.
+- Looking at the most popular licenses, I couldn't find any constraint to such uses, but several papers mention the legal barriers to text mining.
+- Even if it is legally allowed, is it possible? OAI-PMH doesn't seem to offer the option of downloading the PDFs.
 
 ### How can I evaluate the models?
 
-My first idea is combining authors, publishers and the author keywords.
+My first idea is combining authors, dates and the author keywords.
+
+### Publications with items in both languages.
+
+How can I remove the german subjects? langdetect doesn't seem able to do so.
