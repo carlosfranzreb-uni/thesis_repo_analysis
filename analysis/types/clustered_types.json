@@ -1,0 +1,35 @@
+{
+  "thesis": [
+    "Doctoral Thesis",
+    "Bachelor Thesis",
+    "Study Thesis",
+    "Master Thesis",
+    "Habilitation"
+  ],
+  "publication": [
+    "Preprint",
+    "Book Part",
+    "Book",
+    "Article",
+    "Conference Proceedings",
+    "Conference Object",
+    "Periodical Part",
+    "Working Paper",
+    "Research Paper",
+    "Report"
+  ],
+  "data": [
+    "Video",
+    "3D Model",
+    "Textual Data",
+    "Audio",
+    "Sound",
+    "Moving Image",
+    "Image",
+    "Dataset",
+    "Generic Research Data",
+    "Research Data"
+  ],
+  "university": ["Course Material", "Lecture"],
+  "other": ["Draft", "Software", "Collection", "Review", "Other"]
+}
