@@ -9,13 +9,15 @@ import requests as req
 import xml.etree.ElementTree as ET
 import os
 from pathlib import Path
+import json
 
 
 class Harvester:
-  def __init__(self, base_url, format, folder):
+  def __init__(self, base_url, format, repo):
     self.base_url = base_url
-    self.folder = folder
-    if not os.path.isdir(folder):
+    self.repo = repo
+    self.folder = f'data/texts/{repo}'
+    if not os.path.isdir(self.folder):
       raise OSError('Folder does not exist.')
     self.metadata_prefix = format
     self.oai = '{http://www.openarchives.org/OAI/2.0/}'
@@ -23,6 +25,7 @@ class Harvester:
     self.dc = '{http://purl.org/dc/elements/1.1/}'
     self.didl = '{urn:mpeg:mpeg21:2002:02-DIDL-NS}'
     self.rejected_langs = set()
+    self.data = json.load(open(f'data/processed/{repo}.json'))
 
   def request(self, verb, params=dict()):
     """ Executes a request with the given verbs and parameters. The parameters
@@ -65,25 +68,38 @@ class Harvester:
         lang = metadata.findall(f'{self.didl}Descriptor')[1] \
           .find(f'{self.didl}Statement').find(f'{self.oai_dc}dc') \
           .find(f'{self.dc}language').text
-        if lang == 'en':
+        if lang == 'en' and self.correct_type(id):
           link = metadata.find(f'{self.didl}Component') \
             .find(f'{self.didl}Resource').attrib['ref']
           res = req.get(link)
           filename = self.folder.split('/')[-1] + '_' + id.split('/')[-1]
           f = Path(f'{self.folder}/{filename}.pdf')
           f.write_bytes(res.content)
-          import sys; sys.exit(0)
         else:
           self.rejected_langs.add(lang)
       except AttributeError:
         continue
+  
+  def correct_type(self, id):
+    """ Returns True if the item is of type thesis or publication. """
+    for obj in self.data:
+      if obj['id'] == id:
+        if obj['type'] is None:
+          return True
+        return obj['type'] in ('thesis', 'publication')
 
 
 if __name__ == "__main__":
   url = 'https://depositonce.tu-berlin.de/oai/request'
   format = 'didl'
-  folder = 'data/texts/depositonce'
-  harvester = Harvester(url, format, folder)
+  repo = 'depositonce'
+  harvester = Harvester(url, format, repo)
+  harvester.retrieve_all()
+  print(harvester.rejected_langs)
+  print('HU')
+  url = 'https://edoc.hu-berlin.de/oai/request'
+  repo = 'edoc'
+  harvester = Harvester(url, format, repo)
   harvester.retrieve_all()
   print(harvester.rejected_langs)
 
