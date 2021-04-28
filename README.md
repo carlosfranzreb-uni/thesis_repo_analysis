@@ -52,3 +52,4 @@ My first idea is combining authors, dates and the author keywords.
 ### Publications with items in both languages.
 
 How can I remove the german subjects? langdetect doesn't seem able to do so.
+Answer: subjects in the dim metadata format are given a language. Abstracts are also identified in this format.
