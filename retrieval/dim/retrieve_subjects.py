@@ -6,6 +6,7 @@ DDC subjects. """
 from xml.etree import ElementTree as ET
 import json
 import os
+from copy import deepcopy
 
 
 oai = '{http://www.openarchives.org/OAI/2.0/}'
@@ -29,12 +30,12 @@ def retrieve_subjects(folder, dump):
       id = header.find(f'{oai}identifier').text
       lang_dict = {'de': [], 'en': [], 'other': [], 'unknown': []}
       publications[id] = {
-        'ddc': lang_dict.copy(),
-        'dnb': lang_dict.copy(),
-        'rvk': lang_dict.copy(),
-        'classification': lang_dict.copy(),
-        'other': lang_dict.copy(),
-        'unknown': lang_dict.copy()
+        'ddc': deepcopy(lang_dict),
+        'dnb': deepcopy(lang_dict),
+        'rvk': deepcopy(lang_dict),
+        'classification': deepcopy(lang_dict),
+        'other': deepcopy(lang_dict),
+        'unknown': deepcopy(lang_dict)
       }
       metadata = record.find(f'{oai}metadata').find(f'{dim}dim')
       for f in metadata.findall(f'{dim}field'):
@@ -80,8 +81,12 @@ def retrieve_subjects_reversed(folder, dump):
 
 
 if __name__ == "__main__":
-  repo = 'depositonce'
-  retrieve_subjects_reversed(
-    f'../../data/xml/dim/{repo}',
-    f'../../data/json/dim/{repo}/subjects_reversed.json'
-  )
+  for repo in ('depositonce', 'edoc', 'refubium'):
+    retrieve_subjects(
+      f'../../data/xml/dim/{repo}',
+      f'../../data/json/dim/{repo}/subjects.json'
+    )
+    retrieve_subjects_reversed(
+      f'../../data/xml/dim/{repo}',
+      f'../../data/json/dim/{repo}/subjects_reversed.json'
+    )
