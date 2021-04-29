@@ -6,12 +6,12 @@ import requests as req
 
 
 class Harvester:
-  def __init__(self, base_url, folder):
+  def __init__(self, base_url, folder, format):
     self.base_url = base_url
     self.folder = folder
     if not os.path.isdir(folder):
       raise OSError('Folder does not exist.')
-    self.metadata_prefix = 'oai_dc'
+    self.metadata_prefix = format
     self.oai = '{http://www.openarchives.org/OAI/2.0/}'
 
   def request(self, verb, params=dict()):
@@ -34,7 +34,7 @@ class Harvester:
         f.write(res.text)
       cnt += 1
       token = self.get_resumption_token(res.text)
-      if len(token) == 0:
+      if token is None or len(token) == 0:
         done = True
       else:
         res = self.request('ListRecords', {'resumptionToken': token})
@@ -47,8 +47,10 @@ class Harvester:
 
 
 if __name__ == "__main__":
+  format = 'dim'
   harvester = Harvester(
     'https://refubium.fu-berlin.de/oai/request',
-    'data/xml/refubium'
+    'data/xml/dim/refubium',
+    format
   )
   harvester.retrieve_all()
