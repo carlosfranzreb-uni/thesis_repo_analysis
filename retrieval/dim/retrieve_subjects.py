@@ -43,7 +43,7 @@ def retrieve_subjects(folder, dump):
             f.attrib['lang'] = 'unknown'
           elif f.attrib['lang'] in langs:
             f.attrib['lang'] = langs[f.attrib['lang']]
-          if 'lang' not in lang_dict:
+          if f.attrib['lang'] not in lang_dict:
             f.attrib['lang'] = 'other'
           if 'qualifier' not in f.attrib:
             f.attrib['qualifier'] = 'unknown'
@@ -70,7 +70,7 @@ def retrieve_subjects_reversed(folder, dump):
             f.attrib['lang'] = 'unknown'
           elif f.attrib['lang'] in langs:
             f.attrib['lang'] = langs[f.attrib['lang']]
-          if 'lang' not in subjects:
+          if f.attrib['lang'] not in subjects:
             f.attrib['lang'] = 'other'
           if f not in subjects[f.attrib['lang']]:
             subjects[f.attrib['lang']][f.text] = list()
