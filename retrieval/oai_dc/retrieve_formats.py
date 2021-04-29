@@ -31,9 +31,9 @@ if __name__ == "__main__":
   for format in formats:
     harvester = Harvester(
       'https://depositonce.tu-berlin.de/oai/request',
-      'data/metadata_formats',
+      '../../data/metadata_formats',
       format
     )
     res = harvester.request('GetRecord', params={'identifier': id})
-    with open(f'data/metadata_formats/{format}.xml', 'w', encoding='utf8') as f:
+    with open(f'../../data/metadata_formats/{format}.xml', 'w', encoding='utf8') as f:
       f.write(res.text)

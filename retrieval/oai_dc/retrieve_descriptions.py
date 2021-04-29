@@ -5,12 +5,14 @@
   4. removing numbers and
   5. performing lemmatization on the remaining words. """
 
+
 import os
 import xml.etree.ElementTree as ET
 import json
 import nltk
 from string import punctuation
 import langdetect
+
 
 oai = '{http://www.openarchives.org/OAI/2.0/}'
 oai_dc = '{http://www.openarchives.org/OAI/2.0/oai_dc/}'
@@ -75,4 +77,4 @@ def preprocess(text, lemmatizer):
 if __name__ == "__main__":
   wnl = nltk.stem.WordNetLemmatizer()
   # retrieve_descriptions('data/xml/refubium')
-  preprocess_file('data/json/depositonce/descriptions.json', wnl)
+  preprocess_file('../../data/json/depositonce/descriptions.json', wnl)

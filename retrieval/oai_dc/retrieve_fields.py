@@ -84,8 +84,8 @@ def extract_info(data):
 
 
 if __name__ == "__main__":
-  dump = 'data/json/edoc/contributors.json'
-  dump_r = 'data/json/edoc/contributors_reversed.json'
+  dump = '../../data/json/edoc/contributors.json'
+  dump_r = '../../data/json/edoc/contributors_reversed.json'
   field = f'{dc}contributor'
-  retrieve_fields('data/xml/edoc', dump, field)
-  retrieve_fields_reversed('data/xml/edoc', dump_r, field)
+  retrieve_fields('../../data/xml/edoc', dump, field)
+  retrieve_fields_reversed('../../data/xml/edoc', dump_r, field)
