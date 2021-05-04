@@ -66,7 +66,7 @@ def retrieve_subjects_reversed(folder, relevant, dump):
             f.attrib['qualifier'] = 'unknown'
           if 'lang' not in f.attrib:
             f.attrib['lang'] = 'unknown'
-          if f.attrib['lang'] in ('en', 'eng'):
+          if f.attrib['lang'] in ('en', 'eng', 'unknown'):
             added = False
             for s in subjects:
               if s['type'] == f.attrib['qualifier'] and s['subject'] == f.text:
@@ -84,7 +84,7 @@ def retrieve_subjects_reversed(folder, relevant, dump):
 
 if __name__ == "__main__":
   for repo in ('depositonce', 'edoc', 'refubium'):
-    relevant_ids = json.load(open(f'../../data/json/dim/{repo}/relevant.json'))
+    relevant_ids = json.load(open(f'../../data/json/dim/{repo}/relevant_ids.json'))
     retrieve_subjects(
       f'../../data/xml/dim/{repo}',
       relevant_ids,
