@@ -38,6 +38,10 @@ def retrieve_subjects(folder, relevant, dump):
         if f.attrib['element'] == 'subject':
           if 'qualifier' not in f.attrib:
             f.attrib['qualifier'] = 'unknown'
+          elif f.attrib['qualifier'] == 'ddc':
+            number = extract_number(f.text)
+            if number is not None:
+              f.text = number
           if 'lang' not in f.attrib:
             f.attrib['lang'] = 'unknown'
           if f.attrib['lang'] in ('en', 'eng'):
@@ -64,6 +68,10 @@ def retrieve_subjects_reversed(folder, relevant, dump):
         if f.attrib['element'] == 'subject':
           if 'qualifier' not in f.attrib:
             f.attrib['qualifier'] = 'unknown'
+          elif f.attrib['qualifier'] == 'ddc':
+            number = extract_number(f.text)
+            if number is not None:
+              f.text = number
           if 'lang' not in f.attrib:
             f.attrib['lang'] = 'unknown'
           if f.attrib['lang'] in ('en', 'eng', 'unknown'):
@@ -80,6 +88,29 @@ def retrieve_subjects_reversed(folder, relevant, dump):
                 'values': [id]
               })
   json.dump(subjects, open(dump, 'w'))
+
+
+def is_ddc(n):
+  """ True if the given number (string) complies with the DDC format. """
+  return '.' in n and len(n.split('.')[0]) == 3 or \
+      '.' not in n and len(n) == 3
+
+
+def extract_number(text):
+  """ Extract the number from the text, including the decimal numbers.
+  If there are more than one number, retrieve the ones that follow
+  the DDC format ddd.d*. """
+  n = ''
+  for char in text:
+    if char.isdigit() or char == '.':
+      n += char
+    elif len(n) > 0:
+      if is_ddc(n):
+        return n
+      n = ''
+  if len(n) > 0 and is_ddc(n):
+    return n
+  return None
 
 
 if __name__ == "__main__":
