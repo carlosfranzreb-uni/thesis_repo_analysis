@@ -44,7 +44,7 @@ def retrieve_subjects(folder, relevant, dump):
               f.text = number
           if 'lang' not in f.attrib:
             f.attrib['lang'] = 'unknown'
-          if f.attrib['lang'] in ('en', 'eng'):
+          if f.attrib['lang'] in ('en', 'eng', 'unknown'):
             publications[id].append((f.text, f.attrib['qualifier']))
   json.dump(publications, open(dump, 'w'))
 
