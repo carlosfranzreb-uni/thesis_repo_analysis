@@ -11,7 +11,7 @@ import os
 from pathlib import Path
 import json
 from tika import parser
-from time import sleep
+from time import sleep, time
 
 
 class Harvester:
@@ -20,6 +20,8 @@ class Harvester:
     self.repo = repo
     self.pdf_folder = f'../../data/texts/pdf/{repo}'
     self.txt_folder = f'../../data/texts/txt/{repo}'
+    self.existing_txt = os.listdir(self.txt_folder)
+    self.existing_pdf = os.listdir(self.pdf_folder)
     self.metadata_prefix = format
     self.oai = '{http://www.openarchives.org/OAI/2.0/}'
     self.oai_dc = '{http://www.openarchives.org/OAI/2.0/oai_dc/}'
@@ -74,6 +76,10 @@ class Harvester:
             .find(f'{self.didl}Resource').attrib['ref']
           res = req.get(link)
           filename = self.pdf_folder.split('/')[-1] + '_' + id.split('/')[-1]
+          if f'{filename}.txt' in self.existing_txt:
+            continue
+          elif f'{filename}.txt' in os.listdir(self.txt_folder):
+            filename += f"_{int(time())}"
           f = Path(f'{self.pdf_folder}/{filename}.pdf')
           f.write_bytes(res.content)
           self.parse_pdf(filename)
