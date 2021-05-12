@@ -26,7 +26,7 @@ class Harvester:
     self.dc = '{http://purl.org/dc/elements/1.1/}'
     self.didl = '{urn:mpeg:mpeg21:2002:02-DIDL-NS}'
     self.rejected_langs = set()
-    self.data = json.load(open(f'../../data/processed/{repo}.json'))
+    self.data = json.load(open(f'../../data/processed/oai_dc/{repo}.json'))
 
   def request(self, verb, params=dict()):
     """ Executes a request with the given verbs and parameters. The parameters
