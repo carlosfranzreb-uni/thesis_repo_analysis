@@ -1,5 +1,5 @@
 """ Retrieve the full texts of the publications that are either of type
-'thesis' or of type 'publication'. 
+'thesis' or of type 'publication' and are written in english. 
 
 The links to the resources can be found in the 'didl' metadata format for
 edoc and depositonce and in 'xoai' for refubium. """
@@ -10,6 +10,7 @@ import xml.etree.ElementTree as ET
 import os
 from pathlib import Path
 import json
+import logging
 from tika import parser
 from time import sleep, time
 
@@ -77,8 +78,10 @@ class Harvester:
           res = req.get(link)
           filename = self.pdf_folder.split('/')[-1] + '_' + id.split('/')[-1]
           if f'{filename}.txt' in self.existing_txt:
+            logging.info(f'File {filename} has already been retrieved.')
             continue
           elif f'{filename}.txt' in os.listdir(self.txt_folder):
+            logging.info(f'File name {filename} already exists.')
             filename += f"_{int(time())}"
           f = Path(f'{self.pdf_folder}/{filename}.pdf')
           f.write_bytes(res.content)
@@ -110,17 +113,25 @@ class Harvester:
 
 
 if __name__ == "__main__":
+  logging.basicConfig(
+    filename=f"../../logs/{str(int(time()))}.log",
+    format='%(asctime)s %(message)s',
+    level=logging.INFO
+  )
   url = 'https://depositonce.tu-berlin.de/oai/request'
   format = 'didl'
   repo = 'depositonce'
+  logging.info(f'START OF {repo}')
   harvester = Harvester(url, format, repo)
   harvester.retrieve_all()
-  print(harvester.rejected_langs)
-  print('HU')
+  logging.info(f'Rejected languages in {repo}: {harvester.rejected_langs}')
+  logging.info(f'END OF {repo}')
   url = 'https://edoc.hu-berlin.de/oai/request'
   repo = 'edoc'
+  logging.info(f'START OF {repo}')
   harvester = Harvester(url, format, repo)
   harvester.retrieve_all()
-  print(harvester.rejected_langs)
+  logging.info(f'Rejected languages in {repo}: {harvester.rejected_langs}')
+  logging.info(f'END OF {repo}')
 
   
