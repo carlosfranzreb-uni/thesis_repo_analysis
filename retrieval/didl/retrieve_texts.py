@@ -11,6 +11,7 @@ import os
 from pathlib import Path
 import json
 from tika import parser
+from time import sleep
 
 
 class Harvester:
@@ -76,11 +77,11 @@ class Harvester:
           f = Path(f'{self.pdf_folder}/{filename}.pdf')
           f.write_bytes(res.content)
           self.parse_pdf(filename)
+          sleep(5)
         else:
           self.rejected_langs.add(lang)
       except AttributeError:
         continue
-
 
   def correct_type(self, id):
     """ Returns True if the item is of type thesis or publication. """
@@ -89,7 +90,6 @@ class Harvester:
         if obj['type'] is None:
           return True
         return obj['type'] in ('thesis', 'publication')
-  
 
   def parse_pdf(self, filename):
     """ Extract the text of the PDF and store it in a TXT file.
@@ -101,6 +101,7 @@ class Harvester:
       with open(f'{self.txt_folder}/{filename}.txt', 'w', encoding='utf8') as f:
         f.write(pdf["content"])
       os.remove(pdf_file)
+
 
 if __name__ == "__main__":
   url = 'https://depositonce.tu-berlin.de/oai/request'
