@@ -109,12 +109,15 @@ class Harvester:
     """ Extract the text of the PDF and store it in a TXT file.
     Delete the PDF file afterwards. Don't remove the PDF files
     whose content is None. """
-    pdf_file = f'{self.pdf_folder}/{filename}.pdf'
-    pdf = parser.from_file(pdf_file)
-    if pdf["content"] is not None:
-      with open(f'{self.txt_folder}/{filename}.txt', 'w', encoding='utf8') as f:
-        f.write(pdf["content"])
-      os.remove(pdf_file)
+    try:
+      pdf_file = f'{self.pdf_folder}/{filename}.pdf'
+      pdf = parser.from_file(pdf_file)
+      if pdf["content"] is not None:
+        with open(f'{self.txt_folder}/{filename}.txt', 'w', encoding='utf8') as f:
+          f.write(pdf["content"])
+        os.remove(pdf_file)
+    except req.exceptions.ReadTimeout:
+      self.parse_pdf(filename)
 
 
 if __name__ == "__main__":
