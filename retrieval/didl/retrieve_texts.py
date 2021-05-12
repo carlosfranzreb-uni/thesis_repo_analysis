@@ -41,14 +41,19 @@ class Harvester:
       request += f'&metadataPrefix={self.metadata_prefix}'
     return req.get(request)
 
-  def retrieve_all(self):
-    """ Retrieve all publications. """
+  def retrieve_all(self, token=None):
+    """ Retrieve all publications. If a resumption token is given,
+    start there. """
     done = False
     cnt = 1
-    res = self.request('ListRecords')
+    if token is None:
+      res = self.request('ListRecords')
+    else:
+      res = self.request('ListRecords', {'resumptionToken': token})
     while not done:
       self.retrieve_pdfs(res.text)
       token = self.get_resumption_token(res.text)
+      logging.info(f'Resumption token: {token}')
       if token is None or len(token) == 0:
         done = True
       else:
