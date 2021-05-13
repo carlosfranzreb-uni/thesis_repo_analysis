@@ -49,7 +49,30 @@ Even german publications seem to have an english description. My plan is to disc
 
 My first idea is combining authors, dates and the author keywords.
 
-### Publications with items in both languages.
+### Publications with items in both languages
 
 How can I remove the german subjects? langdetect doesn't seem able to do so.
 Answer: subjects in the dim metadata format are given a language. Abstracts are also identified in this format.
+
+### Repository analysis
+
+Including only theses and publications written in english:
+
+1. How many english subjects are there and how frequent are they? How many english subjects does each document have?
+2. How specific are the DDC subjects, how frequent and how are they distributed?
+3. How many potential duplicate authors are there?
+4. How many documents have english abstracts?
+5. How many documents have dates and how are they distributed?
+6. How many types of documents are there and how are the documents distributed among the types.
+7. How many documents have attachments?
+
+## Approaches
+
+1. TF-IDF
+2. TextRank
+3. Sequential Information Bottleneck clustering
+
+### Interesting methods
+
+1. POS tagging
+2. Entity linking
