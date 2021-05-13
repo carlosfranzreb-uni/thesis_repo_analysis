@@ -15,6 +15,9 @@ from tika import parser
 from time import sleep, time
 
 
+oai = '{http://www.openarchives.org/OAI/2.0/}'
+
+
 class Harvester:
   def __init__(self, base_url, format, repo):
     self.base_url = base_url
@@ -70,32 +73,34 @@ class Harvester:
     root = ET.fromstring(res)
     records = root.find(f'{self.oai}ListRecords')
     for record in records:
-      try:
-        id = record.find(f'{self.oai}header').find(f'{self.oai}identifier').text
-        metadata = record.find(f'{self.oai}metadata').find(f'{self.didl}DIDL') \
-          .find(f'{self.didl}Item')
-        lang = metadata.findall(f'{self.didl}Descriptor')[1] \
-          .find(f'{self.didl}Statement').find(f'{self.oai_dc}dc') \
-          .find(f'{self.dc}language').text
-        if lang == 'en' and self.correct_type(id):
-          link = metadata.find(f'{self.didl}Component') \
-            .find(f'{self.didl}Resource').attrib['ref']
-          res = req.get(link)
-          filename = self.pdf_folder.split('/')[-1] + '_' + id.split('/')[-1]
-          if f'{filename}.txt' in self.existing_txt:
-            logging.info(f'File {filename} has already been retrieved.')
-            continue
-          elif f'{filename}.txt' in os.listdir(self.txt_folder):
-            logging.info(f'File name {filename} already exists.')
-            filename += f"_{int(time())}"
-          f = Path(f'{self.pdf_folder}/{filename}.pdf')
-          f.write_bytes(res.content)
-          self.parse_pdf(filename)
-          sleep(5)
-        else:
-          self.rejected_langs.add(lang)
-      except AttributeError:
+      header = record.find(f'{self.oai}header')
+      if record.tag == f'{oai}resumptionToken':
         continue
+      elif 'status' in header.attrib and header.attrib['status'] == 'deleted':
+        continue
+      id = header.find(f'{self.oai}identifier').text
+      metadata = record.find(f'{self.oai}metadata').find(f'{self.didl}DIDL') \
+        .find(f'{self.didl}Item')
+      lang = metadata.findall(f'{self.didl}Descriptor')[1] \
+        .find(f'{self.didl}Statement').find(f'{self.oai_dc}dc') \
+        .find(f'{self.dc}language').text
+      if lang in ('en', 'eng') and self.correct_type(id):
+        link = metadata.find(f'{self.didl}Component') \
+          .find(f'{self.didl}Resource').attrib['ref']
+        res = req.get(link)
+        filename = self.pdf_folder.split('/')[-1] + '_' + id.split('/')[-1]
+        if f'{filename}.txt' in self.existing_txt:
+          logging.info(f'File {filename} has already been retrieved.')
+          continue
+        elif f'{filename}.txt' in os.listdir(self.txt_folder):
+          logging.info(f'File name {filename} already exists.')
+          filename += f"_{int(time())}"
+        f = Path(f'{self.pdf_folder}/{filename}.pdf')
+        f.write_bytes(res.content)
+        self.parse_pdf(filename)
+        sleep(5)
+      else:
+        self.rejected_langs.add(lang)
 
   def correct_type(self, id):
     """ Returns True if the item is of type thesis or publication. """
