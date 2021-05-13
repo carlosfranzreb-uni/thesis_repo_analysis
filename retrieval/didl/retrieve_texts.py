@@ -117,6 +117,7 @@ class Harvester:
           f.write(pdf["content"])
         os.remove(pdf_file)
     except req.exceptions.ReadTimeout:
+      logging.error(f"Parsing of {filename} failed.")
       self.parse_pdf(filename)
 
 
@@ -128,13 +129,13 @@ if __name__ == "__main__":
   )
   url = 'https://depositonce.tu-berlin.de/oai/request'
   format = 'didl'
-  repo = 'depositonce'
-  logging.info(f'START OF {repo}')
-  harvester = Harvester(url, format, repo)
-  token = 'didl////5200'
-  harvester.retrieve_all(token)
-  logging.info(f'Rejected languages in {repo}: {harvester.rejected_langs}')
-  logging.info(f'END OF {repo}')
+  # repo = 'depositonce'
+  # logging.info(f'START OF {repo}')
+  # harvester = Harvester(url, format, repo)
+  # token = 'didl////5200'
+  # harvester.retrieve_all(token)
+  # logging.info(f'Rejected languages in {repo}: {harvester.rejected_langs}')
+  # logging.info(f'END OF {repo}')
   url = 'https://edoc.hu-berlin.de/oai/request'
   repo = 'edoc'
   logging.info(f'START OF {repo}')
