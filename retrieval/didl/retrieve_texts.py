@@ -87,7 +87,11 @@ class Harvester:
       if lang in ('en', 'eng') and self.correct_type(id):
         link = metadata.find(f'{self.didl}Component') \
           .find(f'{self.didl}Resource').attrib['ref']
-        res = req.get(link)
+        try:
+          res = req.get(link)
+        except UnicodeDecodeError:
+          logging.error(f'{filename} couldn\'t be decoded')
+          continue
         filename = self.pdf_folder.split('/')[-1] + '_' + id.split('/')[-1]
         if f'{filename}.txt' in self.existing_txt:
           logging.info(f'File {filename} has already been retrieved.')
