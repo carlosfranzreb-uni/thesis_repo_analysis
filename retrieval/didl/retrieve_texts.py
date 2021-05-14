@@ -141,7 +141,7 @@ if __name__ == "__main__":
   # repo = 'depositonce'
   # logging.info(f'START OF {repo}')
   # harvester = Harvester(url, format, repo)
-  token = 'didl////500'
+  token = 'didl////5700'
   # harvester.retrieve_all(token)
   # logging.info(f'Rejected languages in {repo}: {harvester.rejected_langs}')
   # logging.info(f'END OF {repo}')
