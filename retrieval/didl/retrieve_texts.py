@@ -85,9 +85,14 @@ class Harvester:
         .find(f'{self.didl}Statement').find(f'{self.oai_dc}dc') \
         .find(f'{self.dc}language').text
       if lang in ('en', 'eng') and self.correct_type(id):
-        link = metadata.find(f'{self.didl}Component') \
-          .find(f'{self.didl}Resource').attrib['ref']
-        filename = self.pdf_folder.split('/')[-1] + '_' + id.split('/')[-1]
+        try:
+          link = metadata.find(f'{self.didl}Component') \
+            .find(f'{self.didl}Resource').attrib['ref']
+          filename = self.pdf_folder.split('/')[-1] + '_' + id.split('/')[-1]
+        except AttributeError:
+          print(f"Component: {ET.tostring(metadata.find(f'{self.didl}Component'))}")
+          logging.error("Metadata of {id} doesn't have a Component tag.")
+          continue
         try:
           res = req.get(link)
         except UnicodeDecodeError:
@@ -141,7 +146,7 @@ if __name__ == "__main__":
   # repo = 'depositonce'
   # logging.info(f'START OF {repo}')
   # harvester = Harvester(url, format, repo)
-  token = 'didl////5700'
+  token = 'didl////16100'
   # harvester.retrieve_all(token)
   # logging.info(f'Rejected languages in {repo}: {harvester.rejected_langs}')
   # logging.info(f'END OF {repo}')
