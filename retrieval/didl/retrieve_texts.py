@@ -142,19 +142,19 @@ if __name__ == "__main__":
   )
   url = 'https://depositonce.tu-berlin.de/oai/request'
   format = 'didl'
-  # repo = 'depositonce'
-  # logging.info(f'START OF {repo}')
-  # harvester = Harvester(url, format, repo)
-  token = 'didl////16100'
-  # harvester.retrieve_all(token)
-  # logging.info(f'Rejected languages in {repo}: {harvester.rejected_langs}')
-  # logging.info(f'END OF {repo}')
-  url = 'https://edoc.hu-berlin.de/oai/request'
-  repo = 'edoc'
+  repo = 'depositonce'
   logging.info(f'START OF {repo}')
   harvester = Harvester(url, format, repo)
+  token = 'didl////5200'
   harvester.retrieve_all(token)
   logging.info(f'Rejected languages in {repo}: {harvester.rejected_langs}')
   logging.info(f'END OF {repo}')
+  # url = 'https://edoc.hu-berlin.de/oai/request'
+  # repo = 'edoc'
+  # logging.info(f'START OF {repo}')
+  # harvester = Harvester(url, format, repo)
+  # harvester.retrieve_all(token)
+  # logging.info(f'Rejected languages in {repo}: {harvester.rejected_langs}')
+  # logging.info(f'END OF {repo}')
 
   
