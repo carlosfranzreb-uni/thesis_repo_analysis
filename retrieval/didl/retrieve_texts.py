@@ -90,8 +90,7 @@ class Harvester:
             .find(f'{self.didl}Resource').attrib['ref']
           filename = self.pdf_folder.split('/')[-1] + '_' + id.split('/')[-1]
         except AttributeError:
-          print(f"Component: {ET.tostring(metadata.find(f'{self.didl}Component'))}")
-          logging.error("Metadata of {id} doesn't have a Component tag.")
+          logging.error("An error occured when looking for the link of {id}.")
           continue
         try:
           res = req.get(link)
