@@ -90,7 +90,7 @@ class Harvester:
             .find(f'{self.didl}Resource').attrib['ref']
           filename = self.pdf_folder.split('/')[-1] + '_' + id.split('/')[-1]
         except AttributeError:
-          logging.error("An error occured when looking for the link of {id}.")
+          logging.error(f"An error occured when looking for the link of {id}.")
           continue
         try:
           res = req.get(link)
@@ -144,7 +144,7 @@ if __name__ == "__main__":
   repo = 'depositonce'
   logging.info(f'START OF {repo}')
   harvester = Harvester(url, format, repo)
-  token = 'didl////5200'
+  token = 'didl////8400'
   harvester.retrieve_all(token)
   logging.info(f'Rejected languages in {repo}: {harvester.rejected_langs}')
   logging.info(f'END OF {repo}')
