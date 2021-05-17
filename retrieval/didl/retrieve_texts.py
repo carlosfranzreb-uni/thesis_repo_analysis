@@ -131,7 +131,6 @@ class Harvester:
         os.remove(pdf_file)
     except req.exceptions.ReadTimeout:
       logging.error(f"Parsing of {filename} failed.")
-      self.parse_pdf(filename)
 
 
 if __name__ == "__main__":
