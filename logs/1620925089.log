@@ -1,0 +1,75 @@
+2021-05-13 18:58:09,795 START OF edoc
+2021-05-13 18:58:10,540 File edoc_21239 has already been retrieved.
+2021-05-13 18:58:12,625 File edoc_3787 has already been retrieved.
+2021-05-13 18:58:12,910 File edoc_18837 has already been retrieved.
+2021-05-13 18:58:18,523 File edoc_19291 has already been retrieved.
+2021-05-13 18:58:18,653 File edoc_4897 has already been retrieved.
+2021-05-13 18:58:18,812 File edoc_19456 has already been retrieved.
+2021-05-13 18:58:18,931 File edoc_3214 has already been retrieved.
+2021-05-13 18:58:19,734 File edoc_17792 has already been retrieved.
+2021-05-13 18:58:20,070 File edoc_2013 has already been retrieved.
+2021-05-13 18:58:20,359 File edoc_16552 has already been retrieved.
+2021-05-13 18:58:20,578 File edoc_16602 has already been retrieved.
+2021-05-13 18:58:21,225 File edoc_19369 has already been retrieved.
+2021-05-13 18:58:21,365 File edoc_18079 has already been retrieved.
+2021-05-13 18:58:21,518 File edoc_1766 has already been retrieved.
+2021-05-13 18:58:21,561 edoc_1766 couldn't be decoded
+2021-05-13 19:00:08,143 Resumption token: didl////600
+2021-05-13 19:03:34,644 Resumption token: didl////700
+2021-05-13 19:06:30,244 Resumption token: didl////800
+2021-05-13 19:09:55,634 Resumption token: didl////900
+2021-05-13 19:13:06,904 Resumption token: didl////1000
+2021-05-13 19:16:42,244 Resumption token: didl////1100
+2021-05-13 19:19:39,333 Resumption token: didl////1200
+2021-05-13 19:23:10,169 Resumption token: didl////1300
+2021-05-13 19:25:34,046 Resumption token: didl////1400
+2021-05-13 19:28:16,811 Resumption token: didl////1500
+2021-05-13 19:30:21,726 edoc_3971 couldn't be decoded
+2021-05-13 19:30:33,897 Resumption token: didl////1600
+2021-05-13 19:33:09,178 Resumption token: didl////1700
+2021-05-13 19:36:01,111 Resumption token: didl////1800
+2021-05-13 19:39:37,921 Resumption token: didl////1900
+2021-05-13 19:42:13,077 Resumption token: didl////2000
+2021-05-13 19:43:54,151 edoc_16805 couldn't be decoded
+2021-05-13 19:45:02,747 Resumption token: didl////2100
+2021-05-13 19:48:20,536 Resumption token: didl////2200
+2021-05-13 19:50:57,368 Resumption token: didl////2300
+2021-05-13 19:54:41,742 Resumption token: didl////2400
+2021-05-13 19:58:18,041 Resumption token: didl////2500
+2021-05-13 20:01:35,324 Resumption token: didl////2600
+2021-05-13 20:04:33,297 Resumption token: didl////2700
+2021-05-13 20:04:46,926 edoc_21858 couldn't be decoded
+2021-05-13 20:07:56,162 Resumption token: didl////2800
+2021-05-13 20:11:47,095 Resumption token: didl////2900
+2021-05-13 20:15:44,629 Resumption token: didl////3000
+2021-05-13 20:20:04,152 Resumption token: didl////3100
+2021-05-13 20:23:16,713 Resumption token: didl////3200
+2021-05-13 20:25:23,603 Resumption token: didl////3300
+2021-05-13 20:27:37,216 Resumption token: didl////3400
+2021-05-13 20:30:31,348 Resumption token: didl////3500
+2021-05-13 20:33:54,246 Resumption token: didl////3600
+2021-05-13 20:37:38,389 Resumption token: didl////3700
+2021-05-13 20:41:38,125 Resumption token: didl////3800
+2021-05-13 20:44:48,656 Resumption token: didl////3900
+2021-05-13 20:48:07,443 Resumption token: didl////4000
+2021-05-13 20:49:16,745 edoc_4158 couldn't be decoded
+2021-05-13 20:51:16,098 edoc_1783 couldn't be decoded
+2021-05-13 20:51:26,573 Resumption token: didl////4100
+2021-05-13 20:55:17,200 Resumption token: didl////4200
+2021-05-13 20:59:22,079 Resumption token: didl////4300
+2021-05-13 21:02:50,364 Resumption token: didl////4400
+2021-05-13 21:05:50,406 Resumption token: didl////4500
+2021-05-13 21:09:12,023 Resumption token: didl////4600
+2021-05-13 21:11:57,596 Resumption token: didl////4700
+2021-05-13 21:14:52,977 Resumption token: didl////4800
+2021-05-13 21:15:31,743 edoc_17916 couldn't be decoded
+2021-05-13 21:18:38,009 Resumption token: didl////4900
+2021-05-13 21:21:21,476 Resumption token: didl////5000
+2021-05-13 21:24:31,889 Resumption token: didl////5100
+2021-05-13 21:25:34,297 edoc_18744 couldn't be decoded
+2021-05-13 21:27:38,186 Resumption token: didl////5200
+2021-05-13 21:31:11,629 Resumption token: didl////5300
+2021-05-13 21:33:24,515 Resumption token: didl////5400
+2021-05-13 21:36:27,355 Resumption token: didl////5500
+2021-05-13 21:40:30,929 Resumption token: didl////5600
+2021-05-13 21:44:10,920 Resumption token: didl////5700

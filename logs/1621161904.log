@@ -1,0 +1,83 @@
+2021-05-16 12:45:04,406 START OF edoc
+2021-05-16 12:45:04,896 File edoc_17809 has already been retrieved.
+2021-05-16 12:45:06,435 File edoc_22217 has already been retrieved.
+2021-05-16 12:45:06,727 File edoc_17377 has already been retrieved.
+2021-05-16 12:45:06,876 File edoc_4025 has already been retrieved.
+2021-05-16 12:45:06,878 An error occured when looking for the link of {id}.
+2021-05-16 12:47:35,718 Resumption token: didl////16200
+2021-05-16 12:50:13,242 Resumption token: didl////16300
+2021-05-16 12:53:36,478 edoc_19256 couldn't be decoded
+2021-05-16 12:54:14,898 Resumption token: didl////16400
+2021-05-16 12:54:17,342 edoc_22540 couldn't be decoded
+2021-05-16 12:57:08,516 Resumption token: didl////16500
+2021-05-16 12:59:47,934 Resumption token: didl////16600
+2021-05-16 13:03:27,817 Resumption token: didl////16700
+2021-05-16 13:07:21,362 Resumption token: didl////16800
+2021-05-16 13:09:47,386 edoc_19494 couldn't be decoded
+2021-05-16 13:10:29,896 Resumption token: didl////16900
+2021-05-16 13:14:20,957 Resumption token: didl////17000
+2021-05-16 13:15:08,335 edoc_22919 couldn't be decoded
+2021-05-16 13:16:41,384 Resumption token: didl////17100
+2021-05-16 13:20:56,591 Resumption token: didl////17200
+2021-05-16 13:23:33,624 Resumption token: didl////17300
+2021-05-16 13:26:33,865 Resumption token: didl////17400
+2021-05-16 13:30:22,098 Resumption token: didl////17500
+2021-05-16 13:33:56,880 Resumption token: didl////17600
+2021-05-16 13:37:07,985 Resumption token: didl////17700
+2021-05-16 13:38:46,676 edoc_22884 couldn't be decoded
+2021-05-16 13:39:41,891 Resumption token: didl////17800
+2021-05-16 13:41:24,735 edoc_21159 couldn't be decoded
+2021-05-16 13:43:07,667 Resumption token: didl////17900
+2021-05-16 13:46:26,840 Resumption token: didl////18000
+2021-05-16 13:49:53,449 Resumption token: didl////18100
+2021-05-16 13:53:13,492 Resumption token: didl////18200
+2021-05-16 13:55:47,194 Resumption token: didl////18300
+2021-05-16 13:59:34,371 Resumption token: didl////18400
+2021-05-16 14:02:33,192 Resumption token: didl////18500
+2021-05-16 14:05:24,204 Resumption token: didl////18600
+2021-05-16 14:06:09,040 edoc_20659 couldn't be decoded
+2021-05-16 14:08:50,740 Resumption token: didl////18700
+2021-05-16 14:12:07,954 Resumption token: didl////18800
+2021-05-16 14:14:52,863 Resumption token: didl////18900
+2021-05-16 14:18:34,732 Resumption token: didl////19000
+2021-05-16 14:22:01,912 Resumption token: didl////19100
+2021-05-16 14:25:17,768 Resumption token: didl////19200
+2021-05-16 14:26:39,869 edoc_20662 couldn't be decoded
+2021-05-16 14:28:49,945 Resumption token: didl////19300
+2021-05-16 14:31:24,308 Resumption token: didl////19400
+2021-05-16 14:34:31,231 edoc_22887 couldn't be decoded
+2021-05-16 14:34:54,573 Resumption token: didl////19500
+2021-05-16 14:37:52,608 Resumption token: didl////19600
+2021-05-16 14:42:10,547 Resumption token: didl////19700
+2021-05-16 14:44:59,525 Resumption token: didl////19800
+2021-05-16 14:48:39,425 Resumption token: didl////19900
+2021-05-16 14:52:07,454 Resumption token: didl////20000
+2021-05-16 14:52:22,495 edoc_19541 couldn't be decoded
+2021-05-16 14:55:47,928 Resumption token: didl////20100
+2021-05-16 14:58:50,936 Resumption token: didl////20200
+2021-05-16 15:01:59,764 Resumption token: didl////20300
+2021-05-16 15:05:52,551 Resumption token: didl////20400
+2021-05-16 15:09:45,157 Resumption token: didl////20500
+2021-05-16 15:13:05,620 Resumption token: didl////20600
+2021-05-16 15:15:06,202 edoc_21829 couldn't be decoded
+2021-05-16 15:16:52,576 Resumption token: didl////20700
+2021-05-16 15:20:55,436 Resumption token: didl////20800
+2021-05-16 15:23:28,373 Resumption token: didl////20900
+2021-05-16 15:28:13,221 Resumption token: didl////21000
+2021-05-16 15:31:33,106 Resumption token: didl////21100
+2021-05-16 15:34:21,845 Resumption token: didl////21200
+2021-05-16 15:37:49,361 Resumption token: didl////21300
+2021-05-16 15:41:25,661 Resumption token: didl////21400
+2021-05-16 15:44:54,312 Resumption token: didl////21500
+2021-05-16 15:48:09,113 Resumption token: didl////21600
+2021-05-16 15:50:28,300 edoc_22629 couldn't be decoded
+2021-05-16 15:51:19,750 Resumption token: didl////21700
+2021-05-16 15:55:36,505 Resumption token: didl////21800
+2021-05-16 15:59:16,242 Resumption token: didl////21900
+2021-05-16 16:02:57,433 Resumption token: didl////22000
+2021-05-16 16:06:28,095 Resumption token: didl////22100
+2021-05-16 16:09:36,218 Resumption token: didl////22200
+2021-05-16 16:13:57,476 Resumption token: didl////22300
+2021-05-16 16:15:41,289 Resumption token: None
+2021-05-16 16:15:41,289 Rejected languages in edoc: {'und', 'fre', 'dut', 'eng', 'mul', 'por', 'ger', 'spa', 'fin', 'nor', 'swe', 'ita', 'lat', 'zxx', 'dan'}
+2021-05-16 16:15:41,289 END OF edoc
