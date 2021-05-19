@@ -162,7 +162,10 @@ class Harvester:
       if pdf["content"] is not None:
         with open(f'{self.txt_folder}/{filename}.txt', 'w', encoding='utf8') as f:
           f.write(pdf["content"])
-        os.remove(pdf_file)
+        try:
+          os.remove(pdf_file)
+        except FileNotFoundError:
+          return
     except req.exceptions.ReadTimeout:
       logging.error(f"Parsing of {filename} failed.")
 
