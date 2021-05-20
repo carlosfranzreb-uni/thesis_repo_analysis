@@ -1,0 +1,2603 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1 
+
+ 
+
+Cross-scale interactions- Yet a challenge in vulnerability and adaptation 
+
+analysis! 
+
+Navarun Varma
+1
+ and Arabinda Mishra
+
+2 
+
+1
+ PhD student, Dept of Policy Studies, TERI University, Vasant Kunj, New Delhi-110070, email-
+
+nverma@teriuniversity.ac.in 
+
+2 
+Dean, Faculty of Policy and Planning, TERI University and Director, Earth Science and Climate Change 
+
+Division, TERI, India Habitat Centre, New Delhi-110003, email- amishra@teri.res.in 
+
+PhD working paper for Marie Curie Training Course on Human Dimensions of Global Environmental Change
+ 
+
+Abstract 
+
+Vulnerability assessments performed for long term environmental changes in the global, sub 
+
+global, national or local level regularly employ up-scaling and down-scaling of information. 
+
+Such techniques do not always account for the interplay of the factors across the levels in 
+
+different scales. As a result, the current studies may give an incomplete understanding of the 
+
+dynamics of a complex adaptive system (CAS) that is responsible for shaping its vulnerability to 
+
+a risk. This working paper is an attempt to understand the concepts of dynamic complexity in a 
+
+CAS and reasons for complementarity and contrast when observed through different scales of 
+
+analysis. Through a literature survey we arrive at a point that there is no single solution in 
+
+scientific studies or management approaches for understanding and solving systemic problems in 
+
+a CAS like socio-ecological system (SES). This leads us to look towards approaches that 
+
+facilitate learning from different understandings of the same problem and negotiation among 
+
+groups with different viewpoints. Finally, a case of an agro-ecosystem in the Brahmaputra basin 
+
+in India is cited to illustrate such complexity and problems for decision making for adaptation. 
+
+We pose three research questions- 
+
+ How can we have an integrated model of the causal mechanisms that lead to an 
+
+irreversible change in a multilevel SES?   
+
+ How do we form an appropriate and acceptable strategy for adaptation when the state of a 
+
+system changes? 
+
+ What is the appropriate form of governance which can maintain the ecological resilience 
+
+for adaptation during periods of environmental change? 
+
+ 
+
+ 
+
+  
+
+mailto:email-nverma@teriuniversity.ac.in
+mailto:email-nverma@teriuniversity.ac.in
+
+
+2 
+
+ 
+
+Introduction 
+
+The necessity for decision makers, to design adaptive strategies in tandem with emerging risks of 
+
+long term environmental change and implementation of such decisions for purposeful adaptation 
+
+of communities, has been felt (Adger et al., 2005). However, the quality and acceptance of such 
+
+intervention will both depend on how well the strategies match with the scales of the problems, 
+
+which is often perceived to be either in the level of the drivers of change of any resource or the 
+
+resource users (Adger, 2001).  Design of such strategies is often influenced by discourses from 
+
+different world views through which experts perceive the inherent causes of vulnerability in any 
+
+system (Adger et al., 2001). Such world views can dictate particular scales of analysis to 
+
+understand a problem, and also form different perspectives for policy intervention. As a result, 
+
+the choice for a particular design process can be a political one and may not match with the real 
+
+world problem (Stephen and Downing, 2001, Stephen, 2004). The quality and acceptance for 
+
+implementation of such strategies remain questionable, as they lack a holistic understanding of 
+
+the vulnerability of a system, and itself remain vulnerable to sabotage by proponents of other 
+
+world-views (Verweij et al., 2006).  
+
+Local communities, apart from the impacts of climate variability over their sources of livelihood 
+
+and natural resources, face risks from multiple drivers like public policy or market shock at any 
+
+given time. They devise their own coping mechanisms based on their perceptions of risk and 
+
+culture which again are constrained by a plethora of socio-economic and political factors from 
+
+higher levels. However such local responses can spread to distant locations and form sources of 
+
+systemic change, if provided with an appropriate window of opportunity (Eakin et al., 2008, 
+
+Gunderson and Holling, 2001). Hence, a lack or even a partial understanding of the dynamic 
+
+complexity of a system at risk, may lead to inappropriate interventions, which may themselves 
+
+become sources of risk.  
+
+The success of the design and implementation of adaptive strategies will depend on the 
+
+understanding of the causal mechanisms of inherent vulnerability of any system at risk, its 
+
+response feedbacks and how best the strategy can match the local perceptions of the problem 
+
+with the analytical perspectives. Thus this calls for an analysis of the implicit scale related 
+
+problems in each step of the design process to secure the broader goals of effectiveness, 
+
+efficiency, equity and legitimacy in decisions for adaptation to systemic changes (Adger, 2005).  
+
+This working paper is an attempt to understand the concepts of dynamic complexity in a system 
+
+and reasons for complementarity and contrast when observed through different scales of 
+
+analysis. Through a literature survey we arrive at a point that there is no single solution in 
+
+scientific studies or management approaches for understanding and solving systemic problems. 
+
+This leads us to look towards approaches that facilitate learning from different understandings of 
+
+the same problem and negotiation among groups with different viewpoints. Finally, a case of an 
+
+agro-ecosystem in the Brahmaputra basin in India is cited to illustrate such complexity and 
+
+problems for decision making for adaptation. We hypothesize that the problem calls for an 
+
+
+
+3 
+
+ 
+
+understanding of the linkages between risks-outcomes and responses in multiple levels of the 
+
+system for the appropriate design of adaptive strategy. 
+
+ 
+
+1. Research Issue 
+
+ 
+
+In adaptation to climate change phenomenon, major research efforts have been made on guiding 
+
+policy intervention to regions and sectors of relatively higher vulnerability and low adaptive 
+
+capacity, cost-benefit analysis of planned adaptation options and mainstreaming adaptation into 
+
+existing policies. The analysis of vulnerability and adaptation to the impacts of long term 
+
+environment change phenomenon like climate change encounters a high degree of uncertainty. 
+
+The complex relations and time delays between the drivers of change, their impacts and 
+
+corresponding responses makes it difficult to construct any causality chain for a predicted 
+
+outcome (Patt et al, 2005). Therefore majority of the frameworks for vulnerability assessment 
+
+focus on a particular system of concern (which can be a natural system, social-ecological system 
+
+or region or community, etc.), a hazard or hazards (referred to as external stressor/s to the system 
+
+of concern), specific variables of the vulnerable system and a time period of interest (Fussel, 
+
+2005). 
+
+The Intergovernmental Panel for Climate Change (IPCC) defines vulnerability as- 
+
+The degree to which a system is susceptible to, or unable to cope with, adverse effects of climate 
+
+change, including climate variability and extremes. Vulnerability is a function of the character, 
+
+magnitude and rate of climate variation to which a system is exposed
+i
+, its sensitivity
+
+ii
+ and its 
+
+adaptive capacity
+iii
+
+(IPCC, 2007).   
+
+The definition sends a strong message that both socio-economic and natural systems are 
+
+important subjects of analysis (Adger, 1996). But there is still a dilemma as to what should be 
+
+the appropriate scale of analysis so as to match the scale of assessment with the scale of 
+
+management. National and regional scale studies are cost effective and often aid into decision 
+
+making but can mask local variations and priorities whereas local level assessments can provide 
+
+an understanding of the coping mechanisms and perceptions of risk, but again can incur a huge 
+
+expenditure. Besides, transferability of the local approach to another scale or different region 
+
+incurs loss of information and suffers from the limitation of data availability (Fekette, et al, 2009, 
+
+Stephen, 2004). In order to alleviate this scale discordance problem (Cash and Moser, 2000), 
+
+assessment is performed for particular scales of analysis which often, are prescribed by the 
+
+discourses followed by and needs of client/funding organizations (Stephen, 2004, Stephen and 
+
+Downing, 2001). For example, national and regional scale assessments which rely on composite 
+
+index construction for relative scoring of vulnerability are preferred by policy makers to identify 
+
+target sectors or groups for intervention and/or fund allocation (Stephen, 2004). On the other 
+
+hand, a local level case study approach is sought by community based organizations and aid 
+
+
+
+4 
+
+ 
+
+organizations like Red Cross which are interested with the underlying causes of vulnerability and 
+
+process of implementation of adaptive strategies among communities (Alast et al.,2007).   
+
+1.1 Index construction   
+
+The aim of vulnerability index construction is to demonstrate the variance in distribution of risks 
+
+among sectors, social groups or places. This is achieved by assigning relative vulnerability 
+
+scores by measuring variables selected on the basis of deductive criteria and preparing indices of 
+
+exposure, sensitivity and adaptive capacity. The application of such an analysis is to focus 
+
+adaptation intervention to area or social groups with highest exposure/sensitivity and least 
+
+adaptive capacity. Such efforts evolved from a generation of impacts centric analysis for climate 
+
+change, became more focused on decisions for adaptation rather than mitigation, as they 
+
+considered vulnerability as an existing characteristic of any society only to be altered to varying 
+
+degrees by impacts of a global change phenomenon (Burton et al, 2002, Obrien et al., 2004a, 
+
+Smit and Wandel, 2006, Adger, 2006, Fussel and Klein, 2005). Although, there is an 
+
+understanding of the dynamic property of vulnerability (Alwang et al, 2001) and there have been 
+
+attempts to incorporate it in such an analysis through choice of appropriate indicators (Adger, 
+
+1999, Leichenko and Obrien, 2001) and GIS mapping (Obrien et al., 2004b), the approach has 
+
+not demonstrated any study of the linkages between risk-outcomes and responses at different 
+
+scales which are responsible for the dynamics within a system (Eakin and Luers, 2006). It leaves 
+
+behind the process of policy and decision making as a passive part, under the assumption that the 
+
+vulnerability ranking within the system of analysis will direct attention to the elements of highest 
+
+vulnerability and lowest adaptive capacity (Smit and Wandel, 2006). 
+
+1.2 Case study approach 
+
+In order to make the analysis of vulnerability and adaptive capacity more grounded, a case study 
+
+approach in local level is also undertaken. Such studies try to understand the sources of risk for a 
+
+community, the causes of vulnerability to such risks and also investigate adaptive needs by 
+
+involving participatory techniques like participant observation and consultation with 
+
+stakeholders rather than depending on a-priori selected list of variables. The focus of such an 
+
+approach is to document the experience of change conditions in the system and investigate 
+
+emergence of means of improving adaptive capacity within the decision making process of the 
+
+system or how best it can accommodate designed adaptive strategies. For analysis of 
+
+vulnerability to long term environmental change, current vulnerability to risks identified by the 
+
+community is first documented, followed by assessing future vulnerability to climate risks based 
+
+on predictions of the IPCC. The investigation also tries to gain insights on constraints and 
+
+opportunities to long term adaptation by structuring interviews on community behavior and 
+
+means of management of resources under changed conditions. Such an approach recognizes 
+
+adaptation as a continuous process and the difficulty of designing any strategy for a single 
+
+stressor like climate change. It recommends for mainstreaming or incorporating adaptive 
+
+strategies into ongoing development policies for achieving the goal of sustainability (Young et 
+
+
+
+5 
+
+ 
+
+al., 2010, Smit and Wandel, 2006, Aalst et al., 2007, Ford and Smit, 2004, Keskitalo, 2004, 
+
+Morduch and Sharma, 2002, Smith, 2000). However, a methodological challenge still remains as 
+
+how to integrate information from secondary sources as that of climate change information 
+
+(Aalst et al., 2007) as down-scaling of climate information may not be precise (Burton et al, 
+
+2002) and even not possible to local levels like a village. Moreover the studies based on such 
+
+approach are not designed to be scaled up to give information on aggregate vulnerability or 
+
+adaptive capacity of a region or nation (Smit and Wandel, 2006).  
+
+ 
+
+1.3 Influence of cross-scale dynamics- Yet a challenge! 
+
+ 
+
+Up-scaling or downscaling of information is often used for index construction or for framing 
+
+climate risks in local level studies using techniques of statistics, geographic information system 
+
+(GIS) and/or climate modeling. As observed from ongoing research in global changes, such 
+
+methods may not always map processes or causal relationships correctly across scales (Root and 
+
+Schneider, 1995, Robinson, 2009, Fekette, 2009). Such a methodological challenge occurs due to 
+
+the non-linearity in the processes, presence of heterogeneity, dominance of different processes at 
+
+different scales, cross-scale interactions and property of emergence or self organization in any 
+
+system (Peterson, 2000, Gibson et al., 2000). However, apart from the differential and dynamic 
+
+character of vulnerability, there is also an understanding of the scale-dependent characteristic of 
+
+vulnerability. The outcome of any vulnerability assessment depends on the chosen scale of 
+
+analysis, generalizations from aggregated scores at broader scales like a region or nation may 
+
+mask process at finer scales like a village (Birkmann, 2006, Obrien, 2004b).  Hence, multi-scale 
+
+approaches have been attempted which tend to first find zones of high vulnerability in national, 
+
+regional or sub-national scale and then try to “ground truth” or validate the findings by case 
+
+studies in the local level of these high vulnerability zones (Obrien et al.,2004a, Fekette et al., 
+
+2009). But cross-scale interactions, the influence of processes that interact between levels in 
+
+different scales, on the dynamics of human vulnerability yet remains to be incorporated in the 
+
+analysis (Fekete et al, 2009). A neglect of these interactions which are the key for maintenance 
+
+of organization within any system, its disruption and emergence of a new form of organization 
+
+(Peterson, 2000), will give an incomplete understanding of the dynamics of vulnerability and 
+
+hence lead to inappropriate decisions for adaptation. 
+
+The inseparability of multiple drivers of exposure and sensitivity and lack of recognition of the 
+
+feedbacks from the adaptive responses at different spatial and temporal scale adds to the 
+
+uncertainty in vulnerability assessments (Eakin and Luers, 2006). However, there is a growing 
+
+theoretical and empirical understanding that the vulnerability of a system is driven by the 
+
+dynamics of non linear interactions between human activity and processes of environmental 
+
+change within and across scales (Holling et al., 2002, Eakin et al., 2008, Adger, 2009). The 
+
+sustainability framework of Research and Assessment Systems for Sustainability Program 
+
+provides us with an opportunity to analyze the dynamic linkages between sources of risk, 
+
+
+
+6 
+
+ 
+
+outcomes and responses in multiple scales (spatiotemporal as well as functional) by observing 
+
+any context as a coupled human-environment system. Although it guides towards a grounded 
+
+approach by focusing on particular place, it still recommends for incorporating local to global 
+
+linkages both in social and environmental domains (Turner et al., 2003a, Turner et al., 2003b). 
+
+Such an approach may not be useful to analyze present or future impacts on a system or identify 
+
+vulnerable elements but can be helpful in illustrating the processes within and across different 
+
+scales that shape vulnerable conditions (Eakin and Luers, 2006). However, it remains silent on 
+
+any analytical approach to be taken for empirical study or provides no respite from the 
+
+methodological challenges associated in incorporating cross-scale interplay. 
+
+In order to explore into this research issue, in the next section we first attempt to understand the 
+
+concept of a coupled system, level, scale and its related dynamics . 
+
+ 
+
+2. Understanding organization and its dynamics in Complex Adaptive System 
+
+ 
+
+ 2.1 Complex adaptive system 
+
+ A coupled human-environment system or social-ecological system (SES), a space of continuous 
+
+interactions among organizations of society and ecology for resource use, is essentially a 
+
+complex adaptive system (CAS) (Janssen and Ostrom, 2006).  CASs like an immune system, 
+
+political party, ecosystem or society are complex as they comprise of a network of multiple 
+
+agents or elements working in parallel, self organized as coherent behavior emerges by 
+
+competition and co-operation among agents, hierarchal as they are organized into successive 
+
+levels with agents at one level as building blocks for agents at a higher level, adaptive as they 
+
+can revise and re-arrange the building blocks with experience, anticipatory as they can predict on 
+
+the basis of assumptions and always in transition between different states due to scope of 
+
+perpetual novelty (Waldrop, 1993, pp 145-147). The elements in a CAS continuously interact 
+
+with each other to form a complex structure that again dictates or constrains the type of 
+
+interactions among its elements. For example, atoms search for a minimum energy state by 
+
+forming chemical bonds with each other and thereby leading the way to form emergent structures 
+
+named molecules, organisms co-operate and compete with each other while co-evolving with 
+
+nature to form ecosystems, human beings try to satisfy their material needs by buying, selling 
+
+and trading and leading to growth of markets. However, such an order in CAS is not fixed; it can 
+
+occasionally be disrupted only to give way to new order to fit better with changed conditions 
+
+(Waldrop, 1993, pp 288-294). The understanding of the hierarchal organization of the elements 
+
+and their interaction within and across levels is central to the notion of vulnerability to change 
+
+within a CAS (Holling, 2002).  
+
+  
+
+  
+
+
+
+7 
+
+ 
+
+2.2 Hierarchy and nestedness 
+
+A hierarchal organization emerges as it offers more stability against disturbances to a system. 
+
+Under favorable conditions, patterns emerge in slower and larger levels out of spatial and 
+
+temporal interactions of structures and processes functioning in lower levels. These patterns can 
+
+in turn interact with other higher level processes and patterns and form nested hierarchies 
+
+(Peterson, 2000). In order to detect these patterns and their interactions within nested hierarchies, 
+
+the concept of scale is crucial. For instance, if we take the classic example of boreal forest 
+
+system, then at the level of patches in a spatial scale of 0.01 to 0.03 kilometers (kms.) and 
+
+temporal scale of 10 to 1000 years, trees interact to shape fuel accumulation in the level of tree 
+
+stands in a spatial level of 0.03 to 1 km and temporal scale of 10 to 100 years. It is at this level 
+
+that large scale processes like fire interacts with the fuel accumulation to produce stand replacing 
+
+forest fires. The pattern of forest stands, in the level of landscape at a spatial scale of 1 to 
+
+100kms and temporal scale of 100 to 100 years, again influences large scale processes like 
+
+weather and foraging which again shapes forest at zone level which can be detected at yet higher 
+
+spatial and temporal scale i.e. 100 to greater than 3000kms and 1000 to 10,000 years respectively 
+
+(Holling, 1992, Peterson, 2000). Examples of emergence through interactions among nested 
+
+hierarchies can also be found in coupled human-environment system. At the scale of ecology, a 
+
+species similar to human SARS is found in the level of masked civet cats and also raccoon dogs. 
+
+Due to interaction of humans engaged in wildlife trade, the virus jumped the species level and 
+
+effected individuals who handled live animals. Soon, through flows of resources and people in 
+
+global commodity chains, SARS spread from Guangdon Province in China to world over causing 
+
+the emergence of an epidemic in southeast Asia and produced a risk world over in 2003 (Adger, 
+
+et al., 2009). Thus, different processes interact with emerging structures in different spatial and 
+
+temporal scales to provide an order in the system.  
+
+ 
+
+2.3 Dynamics in hierarchy 
+
+ 
+
+However, such hierarchal organization is dynamic and there is always chance for a particular 
+
+order of a CAS to be disrupted to give way to a new order. We can again take the example of 
+
+forest stand to understand such dynamics. A young forest stand becomes denser as it grows 
+
+gradually, accumulates fuel and becomes vulnerable to fire. After a fire event, the stand is re-
+
+organized as new plants germinate from roots or seeds, thereby giving way to new forest stand. 
+
+In such a dynamic scenario, we often see systems fluctuating between emergent patterns or 
+
+stability states owing to the diversity in interactions among the structures and processes along 
+
+spatial and temporal scale. As fire, outbreak of spruce budworm is a natural phenomenon of 
+
+renewal of forest in eastern Canada and the United states. In this example two stability states 
+
+exist, one is with low budworm population and other is with high budworm population. As the 
+
+tree stands are young, the density of budworm feeding on them is low enough to maintain 
+
+equilibrium with its own avian predation. However, as the stands mature and gain more foliage, 
+
+
+
+8 
+
+ 
+
+the density of budworm population increases such that is dilutes the effectiveness of budworm 
+
+predation by insectivorous birds. Thus, the stability collapses and an insect outbreak is released 
+
+which ushers a new state (Holling and Gunderson, 2002, pp 30). Similar dynamics can also be 
+
+assumed in human management systems like bureaucracy. Gunderson et al. (2002) provides the 
+
+example of the Corps of Engineers and South Florida Water Management District in United 
+
+States. Generally these organizations spend time and resources in implementing public policies 
+
+and monitoring key indicators in ecosystem. But during a natural crisis, any activist or group 
+
+would criticize the policies claiming them to be no longer practical. This would trigger 
+
+engagement of temporary groups outside the bureaucratic system which design alternative 
+
+policies for the decision makers. In this case the activists can be compared to be the spruce 
+
+budworm of management institutions and the temporary groups providing alternative futures 
+
+(Gunderson et al., 2002, pp 327). 
+
+ 
+
+2.4 Adaptive cycle and resilience within 
+
+This dynamics or shift between stability states is explained by the adaptive cycle metaphor which 
+
+describes how systems shift between 4 phases namely; exploitation, conservation, release and 
+
+reorganization (see Annexure 1). The reorganization to a stable state however depends on the 
+
+resilience of the system, which in turn dictates the vulnerability to shift to an altered state. 
+
+Resilience is a dynamic property which changes as the system traverses through its adaptive 
+
+cycle. Minimum resilience is during the phase of high connectedness as capital in any system 
+
+grows from exploitation to conservation phase and maximum when there is release of capital 
+
+followed by system reorganization. The latter is the phase of low connectivity among structural 
+
+and process variables and novel entrants, like mutant species in an ecosystem or innovations in 
+
+markets, which accumulate but are, kept out from expressing themselves during growth get a 
+
+chance to compete with left overs of previous cycles like elements of matured forest or 
+
+established markets. New interactions can be triggered while resilience is high during 
+
+reorganization which will help the system adapt and remain functional in an altered environment.  
+
+Such interactions, like that of a meeting of some entrepreneurs under a conducive market 
+
+environment may lead to implementation  of a new idea or association of migrant populations of 
+
+different species which took place during the retreat of ice sheets may have led to emergence of 
+
+ecosystems as we observe today. Thus the diversity or heterogeneity in a system can organize 
+
+and reorganize in different ways to adapt to changing environment (Holling and Gunderson, 
+
+2002, pp 40-48).   
+
+2.5 Nested cycles 
+
+ The understanding of the dynamics of emerging pattern will be incomplete without special 
+
+reference to the interactions between different adaptive cycles. If we refer back to the example of 
+
+Boreal forest, Holling in his classic work on nested cycles analyzes the levels within the forest 
+
+
+
+9 
+
+ 
+
+system as adaptive cycles, with each level going through its own phases of birth, growth, death 
+
+and renewal (as explained by 4phases of adaptive cycle). At relatively faster and smaller scales, 
+
+as that in the level of patch, the structures are mediated by biophysical processes of interspecies 
+
+plant competition for nutrients, light and water which influences local species composition and 
+
+regeneration. At the meso-level of tree stands, disturbances like processes of fire, storm, insect 
+
+outbreak and mammalian herbivory influence structure and successional dyanamics. At even 
+
+larger and slower scales, as that of landscape, climate, biogeographical and geomorphological 
+
+changes alter ecological structures (Holling et al., 2002, pp 69, Holling, 1992). In the same way, 
+
+key variables of a human disease system like the disease organism, vectors and their susceptibles 
+
+and human population can also be understood to be operating in three different levels with three 
+
+different speeds i.e. fast, intermediate and slow (Holling et al., pp 69, MacDonald, 1973), to 
+
+which we can also assume three different spatial attributes considering our previous example of 
+
+SARS (Adger, 2009). But, it is the interaction among the adaptive cycles in different levels 
+
+operating at different scales, which hold the key for understanding the dynamic features of 
+
+hierarchal organization. 
+
+ 
+
+2.6 Panarchy 
+
+The Hierarchy theory explains that hierarchies are not static but the individual levels are transient 
+
+structures maintained by interaction of processes across scales (Allen and Starr, 1982). However, 
+
+the theory explains only one asymmetry of interaction between levels, i.e. of larger, slower levels 
+
+constraining the behavior of faster, smaller levels which would again lead to the assumption of 
+
+hierarchal organizations to be static without the possibility of novelty in the system. Although it 
+
+is true, such that tree stands moderate the climate within the stand to narrow the range of 
+
+temperature variation for individuals within it, but it is partial as it ignores the dynamics phase 
+
+transitions in each level. As explained earlier, there is scope of re-organization in adaptive cycles 
+
+of each level and novel associations among fresh entrants can lead to alternate states. There can 
+
+be multiples connections among the nested cycles, each moving in different spatial and temporal 
+
+scale and hence the terminology explaining it has evolved from that of hierarchy, often confused 
+
+with top down control, to that of Panarchy after the Greek god Pan which symbolizes pervasive 
+
+control of nature and also frequent disruptions of organization as reproduced in the word panic 
+
+(Holling et al., 2002, pp 72-74) (see Annexure 2). 
+
+ 
+
+2.7 Cross scale interactions within a panarchy 
+
+ In a panarchial system, out of all the connections between the phases of levels moving in 
+
+different scales, two most important for maintaining the resilience of the system, are termed to be 
+
+“Remember and Revolt”. “Revolt” is an upward moving disturbance from fast and smaller levels 
+
+to slower and larger levels whereas “Remember” is a constraint from the latter to the former. 
+
+
+
+10 
+
+ 
+
+“Revolt” can happen when a level in a panarchy enters the release phase and tries to re-organize 
+
+in uncertain ways. A collapse of any level can cascade up to next higher level and pose a risk of 
+
+collapse of the entire panarchy if the higher level is in its matured growth phase and has lost its 
+
+flexibility. An ecological example of “Revolt” can be fire events which start from a small ground 
+
+fire triggered by conditions of local ignition and spread to crown of a tree to patches in the forest 
+
+(Holling et al., 2002, pp 75-76). Socio-political examples can be of political uprisings like that of 
+
+Sepoy Mutiny in colonial India of 1857 which started in a Military cantonment in a place named 
+
+Meerut, in north Indian state of Uttar Pradesh and had spread to different parts of the country. It 
+
+is regarded as the First Battle of Indian Independence by historians and had led to change of 
+
+political authority of the country from the East India Company to the British Crown (Bayly, 
+
+1998). “Remember” in contrast is a connection in the opposite direction and is important during 
+
+times of change and renewal. Once a collapse like situation is triggered in any of the levels in the 
+
+panarchy, stored capital of a higher level in matured stage is drawn upon for reorganization of 
+
+the lower level (Holling, et al., 2002, pp 76). This capital can be in the form of institutional 
+
+memory (Berkes and Folke, 2002) or seed banks and surviving species accumulated during the 
+
+growth phase, which help in the survival of a community (Fekette, 2009)  during natural hazard 
+
+or revival of a forest patch (Holling, et al., 2002, pp 76).  
+
+ 
+
+2.8 Resilience and its perspectives 
+
+ Resilience, as described here, recognizes presence of multiple equilibrium or stability states and 
+
+surprise events of change phenomena. It is defined as the magnitude of a disturbance that triggers 
+
+a shift between alternative states. However it is mostly a perspective of ecological resilience, 
+
+which suggests that it is an inherent adaptive property of a system which allows its fundamental 
+
+function to persist even in times of extremes and disturbance. There also exists an engineering 
+
+perspective of resilience, which defines it as rate of speed of recovery of a system following a 
+
+disturbance or shock. It assumes the presence of a single equilibrium and describes systems 
+
+behavior as one that resists departure from a particular stable state. Thus, ecological resilience 
+
+focuses on the role of positive feedbacks, its ability to push system behavior away from any 
+
+stable state and diversity generated within the system. On the other hand, engineering resilience 
+
+stresses on negative feedbacks that reinforce stability by bringing it back to a single stable state 
+
+and predictability of system behavior. Thus engineering resilience, which is generally concerned 
+
+with mathematical representation of a recovery time of a system to its equilibrium, is more 
+
+applicable to a linear system or when a non-linear system is nearing one of its equilibrium states.  
+
+There is a tendency, among scientists or decision makers subscribing to this perspective, to 
+
+concentrate only with one or a small group of variables (a-priori selected) and their scales of 
+
+analysis or management are also often too narrow to witness the interactions of variables moving 
+
+with different speeds (Gunderson and Allen, 2010, Allen et al., 2010). 
+
+
+
+11 
+
+ 
+
+The marked differences among the two perspectives also signify the difference in knowledge 
+
+traditions and management approaches. The ecological perspective is more often used by 
+
+scientists, with a biological tradition, who build up their research on empirical observations and 
+
+try to integrate science with policy and management. On the contrary, engineering resilience is 
+
+subscribed by scientists, within engineering and applied mathematics tradition, following mostly 
+
+a deductive approach. The difference in management approaches renders from the difference in 
+
+treatment of uncertainty within the two perspectives. The followers of engineering perspective 
+
+rely on the predictability of the system by trying to control the disturbance events and optimize 
+
+the conditions for only those interactions that lead to growth of resources (eg. fishes in a fishery 
+
+or tress in forest) in the system which can meet with a social, economic or engineering objective. 
+
+By increasing homogeneity, it reduces the functional diversity of a system, which is seen as the 
+
+key to maintain its adaptive capacity. By controlling disturbance events like fire or insect 
+
+outbreaks in a forest system, it inhibits the structuring processes that could usher novelty into the 
+
+system and keep it adaptive to any external change, it makes the system vulnerable to an 
+
+irreversible change (Holling, 1996). An example is of the suppression of spruce budworm 
+
+populations in Canada during the 1950s and 1960s. In order to preserve the pulp and paper 
+
+industry, insecticides were used which reduced the defoliation by the insect and hence tree 
+
+mortality was delayed. This led to growth of pulp mills, and at the same time left the economy 
+
+vulnerable to a sever downfall owing to the rising vulnerability of the forest to an intense 
+
+outbreak due to rise in the homogeneity of the foliage. This again demanded more vigilance and 
+
+control over the forest resources by the management institutions (Holling, 1996, p 59). 
+
+Thus, trying to engineer the system to maintain a particular equilibrium or stable state may lead 
+
+to less resilient and more vulnerable ecosystem, rigid and unresponsive management institutions 
+
+and more dependent societies. Holling (1996) provides evidence for the hypothesis of loss of 
+
+variability to loss of resilience from biological system. Ectotherms i.e. cold blooded animals 
+
+have a higher range of viable internal body temperature as compared to water ectotherms or even 
+
+more in case of endotherms i.e. warm blooded animals which regulate their body temperature to 
+
+a narrow range. Although such regulation seems to render endotherms vulnerable but they have a 
+
+range of mechanisms to control temperature which can extend from evaporative cooling to 
+
+metabolic heat generation. Each mechanism has different but again overlapping range of 
+
+conditions and different efficiencies for response. It this overlapping “soft” redundancy that 
+
+marks the difference between regulation of biological systems and those proposed by 
+
+engineering resilience paradigm. Even examples from ecosystems can provide the importance of 
+
+role of such redundancy in maintaining consistency. Holling, once again returns to his example 
+
+of predation of spruce budworm in the forests of eastern Canada. He observed that some species 
+
+of insectivorous birds predate moderately over a broad range of prey densities, while some other 
+
+species predate heavily over narrow ranges of prey density while there are some which maintain 
+
+their predation between high and low. The density at which predation impact is maximal also 
+
+differs according to species. Through intra-species completion, the aggregate predation effect is 
+
+kept low when there are large numbers of predator and very less prey whereas it increases with 
+
+
+
+12 
+
+ 
+
+the reverse condition. Thus it seen that the risks and benefits are widely spread to retain 
+
+consistency in performance irrespective of the fluctuations in individual species. This, Holling 
+
+explains as the “heart of role of functional diversity” in maintain ecosystem structure and 
+
+function (Holling, 1996, pp 61-62). 
+
+Another important feature in natural systems that is important for its consistency is the tendency 
+
+to function at the edge of instability i.e. at the boundary of a stable state. Holling, once again 
+
+cites the example of endotherms, which can maintain high body temperature, at the edge of one 
+
+of their stability domain i.e. life itself. Speed and stamina increase and endotherms can maintain 
+
+activities at both high and low temperatures and exist in habitats unbearable for ectotherms. Thus 
+
+here we can see that variability is not eliminated but curtailed at one place and transferred from 
+
+animal‟s internal environment to external environment as a result of allowing the animal to 
+
+explore for opportunity and change. Inferences from such examples from nature suggest that 
+
+control of internal dynamics at the edge of instability generates options for exploration into 
+
+uncertainty of the external world. Although of controlling is part and parcel of engineering 
+
+resilience, the creation of opportunities at the edge of stability is a component to be pondered 
+
+upon (Holling, 1996, pp 62-63). 
+
+Thus, management practices have to see beyond their scales of operation and the strategies will 
+
+have to designed not so much for maximizing productivity but for the interrelationship between 
+
+people and resources such that they can be sustained in times of crisis and “surprises”. Thus 
+
+ecological resilience paradigm calls for integration of sciences, knowledge at different levels and 
+
+public participation for exploring alternative futures. However, movement towards such a 
+
+paradigm is only seen when the very goal maintained by rigid institutions is abandoned. Holling 
+
+(1996) cites the example of control of budworm and growth of pulp industry in New Brunswick 
+
+in Canada. The rigid control gave off when a forest inventory report indicated insufficiency of 
+
+wood stock to sustain the industry in future which ushered new laws of restructuring 
+
+management policies and created opportunity for local industries for innovation (Holling, 1996, 
+
+pp 64-65). 
+
+ However, such management practices can be sustained only when there is ecological resilience 
+
+as well as trust on the management (Holling, 1996) which again illustrates the importance of 
+
+design and acceptance of adaptive strategies after a crisis.  
+
+ 
+
+3. Concept and challenge of Scale 
+
+ 
+
+We have already used the term scale and level while describing hierarchy and its dynamics in a 
+
+system. In this section, we try to understand them as concepts that are referred in different 
+
+literature and point out the challenges that the uses of these concepts pose for scientific analysis 
+
+or assessments and decision making.  
+
+
+
+13 
+
+ 
+
+3.1 Scale of analysis versus scale of phenomenon 
+
+In order to observe and analyze the patterns emerging out of different interactions among 
+
+structures and processes, different scales are used. Accordingly, scale is defined as the spatial, 
+
+temporal and analytical dimensions used by scientists to measure and analyze objects and 
+
+processes (Gibson, 2000, Fekete, 2009). Gibson describes levels as distinct regions in a 
+
+measurement scale, as Macro, Meso and Micro are levels in spatial scale describing large, 
+
+intermediate and small size phenomena or long, medium and short durations are levels in 
+
+temporal scale representing relatively slow, intermediate and fast processes. Every scale 
+
+incorporates an extent which is described as the magnitude of dimension used to measure a 
+
+phenomenon, and a resolution which refers to the precision of the measurement (Gibson, 2000). 
+
+A social scientist may fix his extent to the level of a village and use a resolution of households in 
+
+a jurisdictional scale. The Millennium Ecosystem Assessment (MEA) (2003) explains that a 
+
+level of an organization (as described in this text) is not equivalent to a scale, but can be 
+
+measured or analyzed through a scale. It further differentiates scale into a unit of observation of a 
+
+process and an intrinsic characteristic of a process. The former i.e. scale of observation (referred 
+
+as scale of analysis in this paper) has been described as a “filter or window of perception” 
+
+through which assessments can be conducted, observations can be made and information and 
+
+knowledge acquired. Through this description, it can be imagined that patterns observed through 
+
+the scale of observation of a watershed will be different as through an ecological zone, as both 
+
+are different levels of an agro-ecosystem (Dalgard et al., 2003), each in its own dynamics. 
+
+However, MEA differentiates the scale of phenomenon as the extent or duration of any social or 
+
+ecological process, defined as its “characteristic scale”, for example change events like El Nino 
+
+have a characteristic return time. Therefore we can assume an incomplete or total lack of 
+
+understanding if the scale of observation/analysis does not match with the characteristic scale of 
+
+any phenomenon or process (MEA, 2003). In order to simplify, Fekete et al. (2009), attempts to 
+
+connect this scale of phenomenon with magnitude, amplitude or extent as used in common 
+
+English while renaming „extent‟ of any spatial, temporal or analytical scale as a “Research Area” 
+
+and resolution in it as “Units”. 
+
+Hierarchies and associated dynamics, as explained here, exist in all complex systems ranging 
+
+from cells and ecosystems to social systems (Gibson, et al., 2000, Westley et al., 2002). In order 
+
+to grasp the emergent patterns of such dynamics, there is a need to incorporate conceptual scales 
+
+apart from spatial and temporal scales in any framework for scientific analysis. Westley et al. 
+
+(2002) explains that the sense making behavior of humans lead to abstraction which facilitates 
+
+their organization according to paradigms or “structures of signification” (Westley et al., 2002, 
+
+Westley, 1995). The systems created through their sense making consist of their own levels 
+
+which may or may not match with the levels in the real world (Westley et al., 2002). Such social 
+
+systems can be institutions of culture or decision making, which emerge out of interactions 
+
+among reflexive human beings. Thus there have been attempts to dissect abstract systems of 
+
+power (Lukes, 1973) economy (Whitaker, 1987) and society (Westley, 1995) into distinct 
+
+
+
+14 
+
+ 
+
+conceptual levels on the basis of functional relationships (Gibson et al., 2000). Due to this buffer 
+
+between the real world and the systems created by human ingenuity, there is always scope for 
+
+mismatch between scales of human actions, social structure and ecological systems which can 
+
+lead to incomplete understanding of the real world and also inappropriate and unacceptable 
+
+decisions (Mclaughlin and Dietz., 2008).  
+
+ 
+
+3.2 Challenges of scale 
+
+Willibanks and Kates (1999) explains that even if we ignore the fact that different processes 
+
+operate in different scales, still our understanding of the world is influenced by scale. In the 
+
+context of global change, they describe how complex relations among society, economy and 
+
+environment can be persuaded in local level studies with smaller resolutions as they bring out the 
+
+entire variance without being masked by generalizations in broader scales. They also point out 
+
+how perspectives vary over a problem when observed through different scales of analysis, due to 
+
+identification of different patterns of same problem. They cited the example of the problem of 
+
+cost of energy efficiency improvement, where macro scale economics suggested a significant net 
+
+cost to national economy in United States of America while micro scale work of many regions 
+
+within the same country often estimated a net benefit (Willibanks and Kates, 1999). 
+
+ Problems of scale mismatch may arise when a particular problem is known only at a certain 
+
+level while the decision for intervention has to be taken at different level. This challenge is 
+
+termed as the “scale discordance” problem and the glaring example can be of climate change 
+
+studies. In this case, information is often sought at lower levels of jurisdiction like nation or 
+
+states by decision makers for understanding impacts and planning for adaptive strategies, while 
+
+predictions from climate models increasingly lose their precision at lower scales of analysis. 
+
+Scale mismatch is also evident when a level of decision making in a jurisdictional or any other 
+
+management scale does not match with the extent (also “characteristic scale” as in MEA, 2003) 
+
+of a problem being faced. This challenge is termed as “institutional fit problem” and the best 
+
+example can be of transboundary air or water pollution which is a problem in the basin level and 
+
+is beyond the national level management of individual countries in the basin.  
+
+In the efforts to account for these mismatches, science and decision making often arrive at a 
+
+particular scale of analysis and then up scale or down scale information for use at an agreed upon 
+
+level. As mentioned before, reliance on such techniques may again lead to the ignorance of 
+
+important cross scale interactions which are found to be crucial in maintenance of the system 
+
+(Cash and Moser, 2000, Cash et al., 2006). In order to widen the knowledge base and distribute 
+
+responsibility and power for better management of resources, co-management strategies are often 
+
+recommended. It creates a scope for engagement and learning among institutions, operating in 
+
+different spatial and management levels, as for example state and resource user committees 
+
+However such approaches also have to deal with the “plurality” of outcomes due to different 
+
+
+
+15 
+
+ 
+
+interactions within and across scales (Cash et al, 2006). Under such a management system, actors 
+
+can associate in a myriad of ways within and across the levels of management according to their 
+
+own perceptions of costs and benefits out of the collaborations. The different combinations of 
+
+partnerships can give rise to different outcomes from the management regime which can again 
+
+levy different costs and benefits on the actors (Adger, 2006).   
+
+ 
+
+3.3 The challenges- From a disciplinary approach 
+
+For a better understanding of the problems of global change, a need to integrate disciplines of 
+
+social science with those of natural science has already been felt. But the conceptualization of 
+
+scale always offers one of the primary challenges for the union of the sciences. Scale has always 
+
+been the focus of any discipline when it comes to identification and explanation of emergent 
+
+patterns, derivation of theory by generalization of pattern in one level observed through a 
+
+particular scale to levels in different scales and optimization of processes in levels of interest. 
+
+Physics with its theories of mechanics and ecology with its hierarchy theory have dealt 
+
+intensively with the issue of scale and dynamics. However multiple interpretations of scale 
+
+among disciplines of social sciences have inhibited its common understanding in social sciences, 
+
+let alone between social and natural sciences. In varying versions of its extent component, scale 
+
+finds its mention in levels of input-output in micro-economics, enterprises or households within 
+
+an economy as in ecological economics, size of population, active labor force, number of 
+
+households, value added to production processes within a territory and spatial area as in urban 
+
+studies or explicitly as spatial scales as in physical geography (Gibson et al., 2000).  
+
+The relevance of cross level interactions across different scales has also been demonstrated in 
+
+various disciplines. The most significant of them are in the macro-economics branch of 
+
+economics discipline, political science, political economy and human geography branch of 
+
+geography. In macroeconomics, Dasgupata (1997) has studied the influence of individual 
+
+decision making by and to emergent features of society like cultural values or national income. 
+
+He differentiates emergent features into fast moving variables like changes in national income 
+
+and rate of inflation and slow moving variables like cultural values, norms or institutions. Many 
+
+sociologists have also pointed towards the importance of interactions within  levels in different 
+
+spatial and temporal scales while understanding historical and social systems  The study of 
+
+federalism in political science points out the linkages in multiple tiers of a governance system 
+
+which fall in different levels of a jurisdictional scale (Gibson et al., 2000). Much of the work on 
+
+the process of diffusion of policy innovations and lobbying of networks of organizations at the 
+
+same level for changes in a higher level addresses the horizontal and vertical linkages among 
+
+levels in the governance system (Schreurs, 2008). In political economy, the social choice theory 
+
+by Kenneth Arrow proves that it is impossible to scale up from an individual preference function 
+
+to a group preference or public interest function which could satisfy a set of desirable properties 
+
+of aggregation process. Similar work in this discipline suggests that in a situation of multiple 
+
+
+
+16 
+
+ 
+
+policy choices, a common agenda is often accepted by domination of certain preferences (Gibson 
+
+et al., 2000). Ellinor Ostrom‟s theory of collective action also points at a different set of criteria 
+
+for optimal outcomes in a collective level as compared to an individual level in the scale of 
+
+management of resources (Ostrom, 1990, Gibson et al., 2000). In human geography branch of 
+
+geography, the issue of scaling spaces comes under the scanner as a political process between 
+
+various mobilizing social groups in the local level and ideologies and social structures (Marston, 
+
+2000). Social groups may “jump scales” to form networks and use ideologies beyond their scale 
+
+of operation for the representation of their causes (Jones, 1969). The point of consensus of these 
+
+different conceptualizations lies in the need for multi level studies of any system by 
+
+incorporating different scales of analysis and finding possible points for policy intervention in 
+
+different levels for the same problem (Ostrom, 2010). However, a neglect of the plurality 
+
+challenge of scale dynamics can lead to the wrong hypothesis of an existence of single solution 
+
+of complex problems and ignorance of uncertainty in any scientific analysis (Ostrom, 2007).  
+
+ 
+
+ 3.4 Plurality of scale dynamics to plural ways of knowing 
+
+Human geographers question the process of shaping of scales in this world, which are otherwise 
+
+treated as absolute by physical geography and also its related discipline of GIS. They regard 
+
+scale as a social construct which emerges from a political struggle between structures of society 
+
+and local action and is therefore a dynamic concept (Jones, 1969, Marston, 2000). This discipline 
+
+tries to explain the shift of scales of the same space, as for example the shift of neighborhood 
+
+scale to metropolitan scale of a city after it has gone through a process of urban planning. As 
+
+urban planners introduced modern techniques like geometrical planning, zoning and social 
+
+cartography to understand the city, the way of knowing the city was altered and a casual 
+
+observation became trivial (Jones, 1969). Similarly, the way of knowing a particular problem i.e. 
+
+the selection of a scale of analysis of a problem can depend on the power of a paradigm and/or 
+
+on the interests of certain actors. Such politics in scaling is exemplified in selection of national 
+
+scale analysis of vulnerability to food crisis in Ethiopia. National level had been selected as the 
+
+scale of analysis as it helped the donors to channelize funds while also provided a scope for the 
+
+decision makers of the country to attract funding by showing the required numbers (Stephen, 
+
+2004). In this regard, work in political economy also shows that politics arising out of plurality 
+
+challenge of scale is not restricted to scales of analysis. It may also find its place in variable 
+
+selection while analyzing any level and also in selection of actors for collaboration in networks 
+
+for co-management (Adger et al., 2006, Ostrom, 2007). 
+
+Multiple outcomes may emerge due to combinations of different variables within and across 
+
+levels in different scales (Ostrom, 2007). Therefore even in a multilevel study, there can be 
+
+plurality in identification of emergent patterns due to selection of different variables in any level 
+
+in a scale. This may lead to different interpretations of the same problem and hence different 
+
+perspectives for problem solving. Ostrom explains that a reduced set of variables by Garett 
+
+
+
+17 
+
+ 
+
+Hardins in his classic study on common pool resources led to an incomplete understanding of 
+
+commons management problem and finally recommend either a state or private intervention for 
+
+saving “tragedy of commons” like scenarios. However, inclusions of variables like norms and 
+
+social capital in the level of Users in an interlinked SES comprising of Resources system (eg. a 
+
+pasture), Governance system (formal or informal governance actors), Resource units (eg. grazing 
+
+animals) and Users (eg. herders) can change the outcome of such “social dilemma” and lead to 
+
+an efficient and effective community management regime (Ostrom, 2007).  
+
+As mentioned before, similar to different outcomes in a scientific assessment by combining 
+
+different variables, interactions of different actors across institutions in different levels of 
+
+management can lead to emergence of different outcomes from co-management regimes. The 
+
+differential access to information on resources by governance structures may create a power 
+
+struggle among resource users bonded by social capital, to mobilize through horizontal linkages. 
+
+Such mobilizations may find partners beyond a single community, and can also find 
+
+collaborators in other levels of the co-management structures on the basis of commonality of 
+
+interests, like media or Non- governmental organizations to rally for a change. But this is only 
+
+one aspect; there can be interactions within levels which may benefit solely regulators, as for 
+
+example workshops and forums between policy makers and scientists without leaving scope for 
+
+inclusion or dissemination of knowledge in the level of resource users. Therefore the interplay of 
+
+the associations between actors of same and different levels within and across scales can lead to 
+
+variance in costs and benefits among actors and time (Adger et al., 2006). Therefore be it a 
+
+multilevel study of a system or a co-management approach, it is difficult to find a “panacea” 
+
+(Adger, 2006, Ostrom, 2007) for understanding and solving systemic problems like vulnerability 
+
+to risks. 
+
+ 
+
+3.4 Search for a way, away from “Panaceas” 
+
+ From the above discussion it is evident that there cannot be a single way of understanding and 
+
+solving the problems shaped by cross scale linkages due to plurality in emergence and 
+
+differences in methods of identification of patterns in a system. Challenges of scale have been 
+
+dealt intensively in the discipline of ecology (Levin, 1992) from where theories of hierarchy and 
+
+lately panarchy have been adopted as theoretical frameworks or paradigms to study social and 
+
+socio-ecological systems (Peterson, 2000, Petrosillo et al., 2010). However, as Adger argues, 
+
+issues of power are intrinsic to each level of any organization and cannot be studied merely by 
+
+dissecting it as one of the subsystems of a bigger system. Power can be manifested while 
+
+selecting any paradigm to frame a problem by a researcher or adhering to any ideology by a 
+
+decision maker while designing response to a risk (Adger, 2006). Therefore, partitioning SESs 
+
+into multiple levels according to a pre-decided criteria and analyzing the influence of linkages 
+
+among the levels by any researcher can bring one close to a real system but again there is always 
+
+scope for other versions of reality by use of different criteria (Checkland, 1985, Ostrom, 2007).  
+
+
+
+18 
+
+ 
+
+In this regard we can look towards soft systems approach which provides for means of group 
+
+modeling and shared understanding of any systemic problem among researchers following 
+
+different discourses and decision makers with different mindsets. It denotes the understanding of 
+
+any problem in a system through paradigms and corresponding frameworks as systems of “logic” 
+
+and differentiates it from the problem as seen in the context or empirically, which is again 
+
+denoted as systems of “culture” (Checkland and Scholes, 1992). It tries to bring together the 
+
+systems of “logic and culture” to give a wider understanding by the recognition of the diversity 
+
+of factors involved in a problem. Such an approach offers an involvement of stakeholders in 
+
+various levels of the system and hence a point of intervention can be sought through a 
+
+negotiation process (Bayer, Vari and Thompson, 2006). Though, such an intervention may not be 
+
+exactly the optimal for the system but it will have the acceptance of all the stakeholders which 
+
+will in turn facilitate its implementation (Ostrom, 2010). Hence, any decision for intervention in 
+
+a system reached through such a process is often referred as-“systemically desirable and 
+
+culturally feasible” (Checkland and Scholes, 1992). However, this would require a thorough 
+
+understanding of the challenges of group modeling methods, selection of discourses to fit 
+
+systems of logic and the negotiation process before its use in looking into problems of 
+
+vulnerability and adaptation to long term environmental change (Venix, 1996). 
+
+ 
+
+4.  Risk of irreversible change in  ecosystem to vulnerability of collapse of the SES  – 
+
+The logic of the problem    
+
+ 
+
+4.1 Novelty and collapse in panarchy 
+
+The seeds of change in any panarchial system lie in its nested cycles. The ushering in of novelty 
+
+in any adaptive cycle can cascade upwards through the connected cycles and change the entire 
+
+system as we knew it. Holling et al. (2002, p 89), citing the example of evolution from 
+
+chimpanzee to humans as they share 98.4 percent of same DNA (Deoxyribonucleic acid), 
+
+explain that such change is not the result of point mutations but rather the new combination 
+
+resulting with the existing genes which can lead to new adaptive pathways for selection. 
+
+Similarly, the industrial revolution in Europe was not due just due to invention of steam engine, 
+
+but the socio-economic context of that era reinforced the novelty and led to a transformation of 
+
+the system. However, evolution in ecosystems is a slow process as it rare that cycles in different 
+
+levels will enter through a vulnerable stage at the same time i.e. either in the release phase or 
+
+become excessive connected, that it can be changed completely by any lower level disturbance 
+
+(Holling et al., 2002 p 90). But such makeover is more often seen in social systems which can 
+
+undergo organizational changes due to “surprise” or crisis events that were not anticipated by 
+
+their sense making (Holling et al., 2002, Janssen, 2002, Holling, 1995). 
+
+
+
+19 
+
+ 
+
+Apart from novelty to adapt to any change event in the environment, episodes of collapse also 
+
+trickle down the nested cycles of a panarchy. Novelty is systemic as it accumulates within the 
+
+system; collapse is due to a stochastic event external to the system. It can overcome any 
+
+sustaining property of panarchy and trigger devastating cascades down the levels of the system. 
+
+A glaring example can be of the loss of biodiversity due impact of asteroid that had hit Earth 
+
+almost 70 million years ago. Such an event, not only eradicated species but also destroyed the 
+
+ecological niches, the mesh of interactions which sustains life itself. As a result recovery was 
+
+slow, and new species, families and orders derived the opportunity to interact and a new way of 
+
+life emerged which ushered the dominance of mammals and extinction of the dinosaurs (Holling, 
+
+et al., 2002 pp 91-92). Similar examples are also seen in social system during breakdown of a 
+
+governance regime in a state where collapse of the system is succeeded by slow reversals.   
+
+Like ushering of novelty into the system, collapse also starts in any one level going through a 
+
+vulnerable phase of its cycle. The diversity in any system is the storehouse for resilience of the 
+
+system which helps it to stay adaptive in the face of environmental change. The loss of diversity 
+
+and potential to accumulate due to misuse or an external force can lead to a “poverty trap” which 
+
+is a perverse state in the normal adaptive cycle with low potential for accumulation of resources, 
+
+low connectedness among the elements as well as low resilience. Such a situation in any level 
+
+can lead to a cascading effect eroding levels of the panacrhy. The example of such trap can be 
+
+found in the history of economic and ecological imperialism which finds its collapse stages in 
+
+episodes of famines.  In another extreme, a system may be sustainable but “maladaptive” when 
+
+the potential for accumulation is high, connectedness is high but at the same time, unlike a 
+
+normal adaptive cycle, even resilience is high. This would mean that the system focuses just on 
+
+those connections that lead to its accumulation and tries to keep any novel entrant at bay. The 
+
+accumulation can be measured in terms of wealth and connectedness can be maintained through 
+
+strict rules (Holling et al, 2002, p 96). The ideal examples can be of heightened bureaucratic 
+
+control of resources for serving a scientific objective or democratic goal (Prtichard and 
+
+Sanderson, 2002) and the Hindu caste system which initially started for sustainable use of land 
+
+resources (Holling et al., 2002, pp97-98). However collapse of such rigid and maladaptive social 
+
+systems can be associated with the simultaneous collapse of resource system to control which 
+
+such systems emerge at first. This can be supported by myriad of examples of changes from 
+
+control and command mechanisms to participatory mechanisms of governance as fish stocks 
+
+disappear in a fishery or agriculture comes to a standstill during periods of draught ((Prtichard 
+
+and Sanderson, 2002). The caste system also disorganized after the degradation of the natural 
+
+resource base during the British Raj in India (Holling et al, 2002, p 97). 
+
+ 
+
+4.2 Irreversible change 
+
+Ecosystem states vary between certain known stable states but seldom move towards irreversible 
+
+state which poses as surprise to a management institution and from where recovery becomes very 
+
+
+
+20 
+
+ 
+
+difficult. Collapse of a SES is mostly attributed to a slow change in the resource system which is 
+
+often not observed by the management due to its narrow focus on certain key variables which it 
+
+perceives as important for accumulation of resources. The system which has lost its diversity due 
+
+to control of disturbance factors moves to a very different state when such a slow change 
+
+accumulate and ultimately pushes the adaptive cycle to its release phase. Even the accumulating 
+
+slow change may actually be a result of any myopic management policy which then goes 
+
+unnoticed due to its narrow focus (Holling, 1995). Due to the initial success of such maximizing 
+
+policy, societies become increasingly dependent on the resources and as the resource system flips 
+
+into a surprise or irreversible state, there is loss of trust on the management institution which 
+
+may destabilize the governance regime (Janssen, 2002, Holling, 1995).  
+
+There are ample evidences of such surprises due to lack of understanding of the non linearity in 
+
+system and ignorance of changes in slow moving variables. One of the classic examples of 
+
+failure of optimization is the myth of maximum sustainable yield of fisheries. As the fish stock 
+
+decreases beyond a certain level due to harvesting, a different set of processes like depensation 
+
+and switching behavior of predators take over which makes the recovery of the stock very 
+
+difficult. Hence if the variability of the processes is taken into account in a fish stock assessment, 
+
+it can lead to a collapse of the fishery. In another example of a modeling exercise of a fishery 
+
+lake, it was observed that economic incentives led to change of the riparian forest by cutting 
+
+trees near the lake to facilitate boating and fishing activity. This changed the slow variable-
+
+habitat of the fishery (fallen trees) which controlled the fish population dynamics. The model 
+
+showed that apart from normal year to year fluctuations, there was gradual decrease in stock and 
+
+there was an abrupt release phase in the system. There was a collapse of the desirable state (here 
+
+one with abundant fish stock) and fishers left the system which brought down the economic 
+
+indicators. Similar collapse is also seen in agro-ecosystems with phosphorous levels in surface 
+
+water. Phosphorous was measured in three different levels of the system in western Great Lakes 
+
+region of North America, in soil (slow turnover), lake mud (intermediate turn over) and lake 
+
+water (fast turnover). As a result of phosphorous intensive farming practices, there is slow 
+
+growth of soil phosphorous, cycles in mud phosphorous of around 200years and occasional 
+
+outbreaks of high lake water phosphorous. The policy maker sets a goal only for phosphorous 
+
+level in lake water with dual objective of maintaining farm yields and water quality. Thus there 
+
+are cycles of high phosphorous in the lake which leads to decline of farm practices. But as there 
+
+is halt of phosphorous intensive practices, the stability state of low phosphorous level in water 
+
+returns which again attracts farm practices (Carpenter et al., 2002). 
+
+The research question important for adaptation is not so much about when and how collapse may 
+
+occur or how much a SES is vulnerable to collapse, but it is more about pathways of 
+
+reorganization after a cycle of collapse. As we saw from previous section that there is no panacea 
+
+in understanding or managing a SES, so there will always be uncertainty of outcomes. Narrow 
+
+focus on objectives set by polity or market rationalists may lead to biasness of a control over 
+
+uncertainty which may ultimately lead to rigid institutions and destruction of diversity. This in 
+
+
+
+21 
+
+ 
+
+turn renders the resource system vulnerable to collapse as a result of a stochastic event and 
+
+finally destabilization of the SES due to loss of trust on the governance regime (Prtichard and 
+
+Sanderson, 2002, Carpenter et al., 2002, Janssen, 2002). Cycles of collapse and renewal is 
+
+inevitable in ecosystem, so the question important to ponder for sustainability of SES are the 
+
+following- 
+
+ 
+
+ How do we form an appropriate and acceptable strategy for adaptation when the state of a 
+
+system changes? 
+
+ What is the appropriate form of governance which can maintain the ecological resilience 
+
+of system for adaptation during periods of environmental change? 
+
+ 
+
+But the answer to these questions lies partially in the understanding of the pathways that lead to 
+
+irreversible state change of a managed ecosystem which can further pose the SES vulnerable to 
+
+collapse. Such attempts to unravel the intrinsic dynamics of a SES that can lead to irreversible 
+
+change in its resource system leads us to looks towards the context of irreversible change from 
+
+lush paddy fields to sand filled landscapes in an agro-ecosystem of Brahmaputra basin in India. 
+
+ 
+
+5. The context 
+
+5.1 The Mishing Community 
+
+The Mishing or Miri
+iv
+ community residing along the Assam-Arunachal Pradesh border of India, 
+
+by the banks of the river Brahmaputra and its tributaries like Subansiri and Ranganadi, has 
+
+always experienced annual floods during the monsoon period. Through their coping 
+
+mechanisms, like special types of huts over tree stumps, boating skills, shifting livelihoods 
+
+between agriculture, fishing and animal husbandry, they have adapted to a particular pattern of 
+
+the flood hazard. There is strong social cohesion among the community and they have local 
+
+institutions for early warning before the hazard. However, the change in the type of hazard itself 
+
+has created new risks for the community. Massive amount of agricultural land has been 
+
+submerged, embankments have been breached and deposition of silt is changing the context 
+
+within which the community used to thrive
+v
+. 
+
+There are scholarly articles which relate the Mishing tribe with the hill tribes of Arunachal 
+
+Pradesh like the Adi community. However, there is also evidence that they arrived from Howang 
+
+ho-Yangtze valley of China merely approximately 300 years ago unlike the tribes of Arunachal 
+
+who‟s arrival dates back to even 2200BC (Phukan, 2010). They arrived at a time when there 
+
+were already chiefdoms in hills of Arunachal Pradesh and established kingdom of the Ahom 
+
+dynasty (established in 1228AD) in the plains of Assam. As a result, they served as middlemen 
+
+between the hill tribes and the kingdom, and slowly gained trust of the Ahoms. Soon, they were 
+
+
+
+22 
+
+ 
+
+given settlement places in flood prone areas of now Dhemaji, Lakhimpur and Jorhat district of 
+
+Assam, some which were formerly vacated by the Ahoms themselves due to recurring floods. 
+
+The community learnt to live with the annual floods with shifting livelihoods, Chang Ghars 
+
+(local term for house over tree stumps) and more or less a nomadic lifestyle
+vi
+. 
+
+ 
+
+5.2 The Agro-ecosystem 
+
+The Matmora Gram Panchayat with 16 revenue villages, under Dhakuakhana sub-division of 
+
+Lakhimpur district tells a story of bust and boom in paddy production. The entire district has 
+
+fertile alluvial soil for paddy cultivation and even its name resonates with wealth (Lakhi- Hindu 
+
+goddess of Wealth). The Mishing farmers of Matmora area were the major rice producers in the 
+
+district till 1998. From 1964 to 1998, they became so self-sufficient in food production that they 
+
+had to just buy salt and kerosene from the market (Das, 2009). 
+
+ The 1950 earthquake in Assam which changed the course of the Brahmaputra and its tributaries 
+
+aggravated the flooding of its plains. As a result the state government, following a technocratic 
+
+paradigm of jacketing rivers, built mud embankments wherever they were missing. However, 
+
+embankments or Mathauri/Garhs (local name also found in historical records or Buronjis 
+
+prepared by Ahoms) were not new to the region as it was the Ahoms who introduced them. But 
+
+the striking difference in the design process is the issue of soil moisture testing to construct the 
+
+embankments away from the play zone of the river. The rivers of northern part of Assam have 
+
+always been prone to course change due to close to site of their origin in the Himalayas. Hence, 
+
+there used to be royal soil testers of the Ahoms who had their own know-how of predicting the 
+
+play zone of the river by licking the soil to measure its moisture content (referred to as 
+
+Maticheleka Barua in Ahom Buronjis). However in the colonial times and more so now in the 
+
+present times, a rise in population along with settlement structures inhibits the continuation of 
+
+such a practice (Phukan, 2001). 
+
+The Matmora embankment was constructed in 1964 to protect the villages from the floods of 
+
+Brahmaputra River. The dependence of the Mishing population thriving in the area over this 
+
+structure led them to forget their nomadic lifestyle and become settled paddy farmers. However, 
+
+the embankment slowly changed the river character and as already in the play zone of the river, 
+
+led to a problem of embankment erosion. After 34 years of its construction, in 1998, two and half 
+
+kilometers of the embankment was finally washed away. The pattern of the floods also changed 
+
+and the inhabitants observed a rise in flooding events per annum. During this time, the 
+
+embankment was rebuilt every time it is eroded and the Public Works Department (PWD) tried 
+
+to shift its position to match the lateral movement of the river. This resulted in a continuous 
+
+displacement of the villages which led to migration and also settlements started right over the 
+
+embankment adding further pressure on the structure (Das et al., 2009). 
+
+
+
+23 
+
+ 
+
+The final blow came in 2007 to 2009, when there were incidences of flash floods along with 
+
+huge amount of silt deposition by the river. Some of the villages like Khamon Birina and 
+
+Janjidangdhora of the area are casted in sand as high as 7feet from ground and crop area has 
+
+reduced to nil
+vii
+
+. The state government reacted in 2009, by shifting from age old mud 
+
+embankments only to latest technology Geo-tubes to protect the villages from future flood. 
+
+However, the sand is still there in the agricultural land and no strategy has yet been planned for 
+
+adaptation, rehabilitation or mass clearing of the land. The policy of the state government has 
+
+always been a technocratic one with fixing its solution in the village level. The slow change of 
+
+the river character by embankments has mostly gone unnoticed. 
+
+5.3 The Political issue 
+
+In the midst of the priorities of the dominant Assamese middle class for achieving economic 
+
+growth at par with the rest of India and ending insurgency in the state, the concern of the tribal 
+
+Mishing community has more often been left aside from any political debate. However the latest 
+
+turn of events, have drawn attention of the local egalitarian civil societies like the Krishak Mukti 
+
+Sangram Samiti (KMSS), media, academicians and activists from Mishing community as well as 
+
+other parts of the nation. However, the primary focus of the political struggle has been to stop the 
+
+dam construction in the Subansiri River and expose plots of corruption in rehabilitation of flood 
+
+victims and also construction of embankments. There is no debate over any strategy for 
+
+adaptation of the Mishing community of Matmora area to this new type of hazard. Such farmers 
+
+along with their counter parts from Arunachal, Manipur and Nagaland have joined in protests 
+
+and demonstrations triggered by KMSS which have sometimes turned violent
+viii
+
+. Moreover in a 
+
+state like Assam which had violent student revolution and insurgency problems, there is always a 
+
+risk to the polity that areas like Matmora can turn into recruit grounds for the insurgency groups, 
+
+due to separatist sentiments, material gains or merely due to the sense of being marooned.  
+
+5.4 Search for causal mechanisms  
+
+The reasons for such a bulk of silt carried by the river is attributed to many factors like upstream 
+
+development work in Arunachal Pradesh, dam construction in tributaries like Ranganadi and 
+
+Subansiri, increased rate of erosion in upstream owning to change in monsoon pattern and failure 
+
+of flood control measures and nexus of corruption (Gohain, 2008, Das, 2009). However, there is 
+
+still a lack of understanding how all the potential factors interacted to lead to the present state of 
+
+the ecosystem. We hypothesize that factors in multiple levels of both ecological and socio-
+
+economic domains, operating in different scales interacted to lead to this state.  
+
+Such an understanding will be crucial for planning and implementation of an efficient, effective 
+
+and just decision for adaptation of the Mishing community. However, going back to the issue of 
+
+differential outcomes and different ways of knowing, such an understanding by any modeling 
+
+exercise will be partial. This leads to add our first research question-  
+
+
+
+24 
+
+ 
+
+ How can we have an integrated model of the causal mechanisms that lead to an 
+
+irreversible change in a multilevel SES?   
+
+ 
+
+ 
+
+Annexure 1 
+
+ 
+
+Figure 1 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+The above figure (Holling, 2001) depicts the adaptive cycle of a system where in there is first 
+
+accumulation of capital (which may be biomass and nutrient in an ecosystem or even economic or social 
+
+capital in a social system) from r to K phase in which the elements and processes of the system becomes 
+
+tightly connected and the system itself slowly moves towards a particular equilibrium. Although the 
+
+capital is stored for reaching a particular matured stage, it provides potential for alternative stages in 
+
+future by accumulating chance mutations to arrive at another ecosystem or networks of human 
+
+relationships for a regime shift in social system. However it is only due to an external disturbance, like a 
+
+forest fire or insect outbreak in a forest there may be release of biomass or nutrients from the soil and loss 
+
+of the tight organization. Similar kind of losses and finally a collapse can be apprehended even in a social 
+
+ POTENTIAL   
+
+ 
+
+ CONNECTEDNESS  
+
+ 
+
+  
+
+RESILIENCE  
+
+    Ω 
+
+ 
+
+       α 
+
+ 
+
+ 
+
+K 
+
+ 
+
+   r 
+
+ 
+
+ Exploitation   
+
+ 
+
+Conservation  
+
+ 
+
+   Release 
+
+ 
+
+ Reorganization 
+
+
+
+25 
+
+ 
+
+system, for example, at the onset of a societal revolt against a rigid political set up. This starts the „back 
+
+loop‟ of the cycle which is a phase of radical change as oppose to the former incremental growth. The 
+
+phase from Ω to α is a phase of rapid reorganization where elements that were in isolated connections in 
+the prior phase recombines to form novel linkages which pave the path for innovations in the next cycle. 
+
+This phase is highly unpredictable and uncertain as previously accumulated mutations, inventions and 
+
+capital can organize into new order providing new opportunity. Hence this adaptive cycle represents two 
+
+objectives- the first is of „production and accumulation‟ (which builds up the „potential or wealth‟ of the 
+
+system that can be utilized in all future options) and second is of „invention and reassortment‟, both of 
+
+which cannot be maximized simultaneously but can occur only sequentially (Holling, 2001).  
+
+In the above figure, the short arrows represent a slow changing situation whereas the long arrows 
+
+represent the rapid changing situation. The third dimension of the adaptive cycle namely resilience, 
+
+remains high in the „back loop‟ of the cycle where connectivity and regulation is low and conditions for 
+
+facilitating experimentation is escalated. Whether the liberated resources during the change event, are lost 
+
+to the system or captured and reorganized back into the same order, is decided in the α phase of the cycle. 
+
+If there is too much of distortion or loss during the change or if there is insufficient „memory‟ for 
+
+reconstruction, then the system may shift to a new regime with different actors, species and functions. If 
+
+the system starts on a new path, then in the r phase, the self organizing attribute of the interactions 
+
+facilitate the positioning of the new actors into a new mesh of relations, which identify the new regime 
+
+(Holling, 2001).   
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+26 
+
+ 
+
+ 
+
+Annexure 2 
+
+Figure 2 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Figure2 demonstrates the hierarchical arrangement of adaptive systems in different spatial and temporal 
+
+scales (Panarchy). It also demonstrates the cross-scalar interactions which provides scope for change 
+
+(„revolt‟ from experimentation and creativity in smaller scales) as well as serves as a source of stability 
+
+(interaction represented as „remember‟, which provides capital and memory during periods of change in 
+
+the intermediate scale). The whole panarchy is thereby sustainable as it is both “creative and conserving”. 
+
+             INTERSCALAR INTERACTION -REVOLT 
+
+SMALL SCALE AND FAST ADAPTIVE CYCLE 
+
+INTERMEDIATE SCALE WITH MEDIUM 
+
+SPEED ADAPTIVE CYCLE 
+
+LARGE SCALE WITH 
+
+SLOW ADAPTIVE CYCLE 
+
+               INTERSCALAR INTERACTION -REMEMBER 
+
+   K 
+
+ 
+
+   α 
+
+ 
+
+   Ω 
+
+ 
+
+   r 
+
+ 
+
+       α 
+
+ 
+
+Ω 
+
+ 
+
+
+
+27 
+
+ 
+
+It provides scope to create, test and maintain adaptive capacity. (Holling,B. 2001). But large stochastic 
+
+events can cause a collapse of panarchies by destroying levels within it, wherein systems may be in a 
+
+vulnerable stage of their respective adaptive cycle, caught in a poverty trap (a state of low potential, low 
+
+connectedness and low resilience) or have become maladaptive (a state of high potential, high 
+
+connectedness but also high resilience) and trigger destructive cascades down the successive levels. Such 
+
+events can overcome the sustaining ability of panarchies and lead to a crisis of the CAS only to usher in a 
+
+new order. However such transformation in a panarchy may only occur when neighboring systems in 
+
+adjacent levels accumulate enough recombinations and inventions and are vulnerable for a switch in 
+
+regime, all at the same time.  
+
+ 
+
+References 
+
+ 
+
+1. Adger, W.N. 2006. Vulnerability. Global environmental change. Vol 16.pp 268-281 
+
+2. Adger, W.N., 2001.Scales of governance and environmental justice for adaptation and 
+
+mitigation of climate change. Journal of International Development. Vol 13, pp.921-931.  
+
+3. Adger, W.N., Arnell,N.W., Tompkins, E.L. 2005. Successful adaptation to climate 
+
+change across scales. Journal of Global environmental change. Vol 15. pp. 77-86. 
+
+4. Adger, W.N., Brown, K., Tompkins, E.L. 2006. The political economy of cross-scale 
+networks in resource co-management. Ecology and society. Vol 10(2):9. 
+
+5. Adger, W.N. Social vulnerability to climate change and extremes in coastal Vietnam. 
+World Development. Vol 27 (2). Pp 249-269. 
+
+6. Adger, W.N., Eakin, H., Winkels, A. 2009. Nested and teleconnected vulnerabilities to 
+
+environmental change. Front ecol environ. Vol 7(3).pp 150-157. 
+
+7.  Allen, C.R., Gunderson, L.H. and Holling, C.S. 2010. Commentary on part one articles. 
+
+In Gunderson, L.H., Allen, C.R. and Holling, C.S. Foundations of ecological resilience. 
+
+Washington D.C.: Island Press. 
+
+8. Alwang, J., Siegel, P.B., Jorgensen, S.L. 2001. Vulnerability: a view from different 
+
+disciplines. Social protection discussion paper series, Human Development Network, 
+
+World Bank. 
+
+9. Bayer, J.L., Vari, A and Thompson, M. 2006. Floods and fairness in Hungary. .  The case 
+
+of clumsiness. In Verweij and Thompson (eds.). Clumpsy solutions for a complex world, 
+
+governance, politics and plural perceptions. New York: Palgrave macmillan 
+
+10. Belliveau, S., Smit, B and Bradshaw, B., 2006. Multiple exposures and dynamic 
+
+vulnerability: evidence from the grape industry in Okangan valley, Canada. Global 
+
+environmental change. Vol 16. pp 364- 378. 
+
+11. Birkmann, J (eds). 2006. Measuring Vulnerability to natural hazards: towards disasters 
+
+resilient societies. United Nations University Press, Japan and Teri Press, India. 
+
+
+
+28 
+
+ 
+
+12. Carpenter, S.R., Brock, W.A., Ludwig, D. 2002. Collapse, learning and renewal. In 
+
+Gunderson, L.H. and Holling, C.S. (eds.). Panarchy, understanding transformations in 
+
+human and natural systems. Washington D.C.: Island press 
+
+13. Cash, D.W. and Moser, S.C., 2000. Linking global and local scales: designing dynamic 
+assessment and management processes. Global environmental change. Vol 10. pp 109-
+
+120 
+
+14. Cash, D.W., Adger, W.N., Berkes, F., Garden, P., Lebel, L., Olsson, P., Pritchard, L. and 
+Young, O. 2006. Scale and cross-scale dynamics: governance and information in a 
+
+multilevel world. Ecology and society. Vol 11(2):8 
+
+15. Checkland, P. 1985. From optimizing to learning: a development of systems thinking for 
+
+the 1990s. J. Opl Res.Soc. Vol 36(9). pp 757-767. 
+
+16. Checkland, P. and Scholes, J. 1990. Soft systems methodology in action. West Sussex, 
+
+England: John Wiley and sons. 
+
+17. Dalgaard, T., Hutchings, N.J. and Porter, J.R. 2003. Agroecology, scaling 
+
+interdisciplinarity. Agriculture, ecosystems and environment. Vol 100. pp. 39-51. 
+
+18. Das, P.J. (2004). Rainfall Regime of Northeast India: A Hydrometeorological Study with 
+
+Special Emphasis on the Brahmaputra Basin. Unpublished Ph.D. Thesis. Gauhati 
+
+University 
+
+19. Das, P.J. (2009). Water and climate induced vulnerability in northeast India: Concerns for 
+
+environmental security and sustainability. WATCH Research Report 1. AARANYAK. 
+
+Guwahati, Assam, India. 
+
+20. Das, P.J., Dadul Chutiya, and Nirupam Hazarika. 2009. Adjusting to Floods on the 
+Brahmaputra Plains, Assam, India. Aranayak, Assam. Published by International centre 
+
+for intgrated mountain development.Nepal. 
+
+21. Eakin , H and Luers, A.L. 2006. Assessing the vulnerability of socio-ecological systems. 
+Annual Review of Environmental resources. Vol 31. pp 365-394. 
+
+22. Eakin, H., Winkels, A. and Sendzimir, J. 2008. Nested vulnerability: exploring cross-
+
+scale linkages and vulnerability teleconnections in Mexican and Vietnamese coffee 
+
+systems. Environmental Science and Policy. 
+
+23. Fekete, A., Damm, M. and Birkmann, J. 2009.  Natural Hazards. Journal of the 
+
+International Society for the prevention and mitigation of natural hazards. 
+
+24. Fussel, H.M. 2005. Vulnerability in climate change research: a comprehensive conceptual 
+
+framework. UC Berkeley: University of California International and Area Studies, UC 
+
+Berkeley. 
+
+25. Gibson, C.C., Ostrom, E., Ahn, T.K. 2000. The concept of scale and human dimensions 
+
+of global change: a survey. Ecological Economics. Vol 32. pp 217-239 
+
+26. Gohain, 2008. Big dams, big floods: on predatory development. Economic and Political 
+weekly. 
+
+
+
+29 
+
+ 
+
+27. Gunderson, L.H. and Allen, C.R. 2010. Why resilience? Why now? In Gunderson, L.H., 
+
+Allen, C.R. and Holling, C.S. Foundations of ecological resilience. Washington D.C.: 
+
+Island Press. 
+
+28. Holling, 1996 (reprinted 2010). Engineering resilience versus ecological resilience. In 
+
+Gunderson, L.H., Allen, C.R. and Holling, C.S. Foundations of ecological resilience. 
+
+Washington D.C.: Island Press. 
+
+29. Holling, C.S. and Gunderson, L.H., 2002. Resilience and adaptive cycles. In Gunderson, 
+
+L.H. and Holling, C.S. (eds.). Panarchy, understanding transformations in human and 
+
+natural systems. Washington D.C.: Island press 
+
+30. Holling, C.S., 2002. What barriers? What bridges? In Gunderson LH, Holling CS, Light 
+
+SS, (eds). Barriers and bridges to the renewal of ecosystems and institutions. New York: 
+
+Columbia University Press 
+
+31. Holling, C.S., Gunderson, L.H. and Peterson, 2002. Sustainability and panarchies. In 
+
+Gunderson, L.H. and Holling, C.S. (eds.). Panarchy, understanding transformations in 
+
+human and natural systems. Washington D.C.: Island press 
+
+32. IPCC, 2007: Summary for Policymakers. In: Climate Change 2007: Impacts, Adaptation 
+
+and Vulnerability. Contribution of Working Group II to the Fourth Assessment Report of 
+
+the Intergovernmental Panel on Climate Change, M.L. Parry, O.F. Canziani, J.P. 
+
+Palutikof, P.J. van der Linden and C.E. Hanson, Eds., Cambridge University Press, 
+
+Cambridge, UK, 7-22 
+
+33. Janssen, M.A., 2002. A future of surprises. In Gunderson, L.H. and Holling, C.S. (eds.). 
+
+Panarchy, understanding transformations in human and natural systems. Washington 
+
+D.C.: Island press 
+
+34. Jones, K.T. 1998. Scale as epistemology. Political geography. Vol 17 (1). pp 25-28 
+35. Leichenko, R.M. and Obrien, K.L. 2001. The dynamics of rural vulnerability to global 
+
+change: the case of southern Africa. Mitigation and adaptation strategies for global 
+
+change. Vol 7.pp 1-18 
+
+36. Lukes, S., 1973. Power: A Radical View. Macmillan, London. 
+
+37. Marston, S.A. 2000. The social construction of scale. Progress in human geography. Vol 
+24(2). pp 219-242 
+
+38. O‟Brien, K.L., Sygna, L. and Haugen, J.E. 2004. Vulnerable or resilient? A multi-scale 
+
+assessment of climate impacts and vulnerability in Norway. Climatic Change. Vol 64. 
+
+39. Obrien, K., Leichenko, R., Kelkar, U., Venema, H., Aandahl, G., Tompkins, H., Javed, 
+
+A., Bhadwal, S., Barg, S., Nygaard, L., West, J. 2004. Mapping vulnerability to multiple 
+
+stressors: climate change and globalization in India. Global environmental change. Vol 
+
+14.pp 303-313. 
+
+
+
+30 
+
+ 
+
+40. Ostrom, E. 1990. Governing commons. Melbourne, Australia: Cambridge University 
+
+Press 
+
+41. Ostrom, E. 2007. A diagnostic approach for going beyond panacea. PNAS. Vol 104(39). 
+pp 15181-15187 
+
+42. Ostrom, E., 2010. A multi-scale approach to coping with climate change and other 
+collective action problems. Solutions. pp 27-36 
+
+43. Patt, A., Klein, R.J.T. 2005. Taking the uncertainty in climate-change vulnerability 
+
+assessment seriously. C.R. Geoscience. Vol 337, pp 411- 424 
+
+44. Peterson, G.D., 2000. Political ecology and ecological resilience: an integration of human 
+
+and ecological dynamics. Ecological Economics. Vol 35. pp 323-336. 
+
+45. Peterson, G.D., 2000. Scaling ecological dynamics: self-organization hierarchical 
+
+structure and ecological resilience. Climate change 44, pp. 359-367. 
+
+46. Petrosillo, I., Zaccarelli, N., Zurlini, G. 2010. Multi-scale vulnerability of natural capital 
+
+in a panarchy of socio-ecological landscapes. Ecological complexity. Vol 7. pp 359-367. 
+
+47. Phukan, S.K., 2001. The study of hodonomy. Assam Sahitya Sabha ,Jorhat. pp 39-44. 
+48. Phukan, S.K., 2010. Onomastics Assam, Vol III.pp 28-29. Guwahati. Assam:Students 
+
+stores 
+
+49. Pritchard, L.j. and Sanderson, S.E., 2002. The dynamics of political discourse in seeking 
+
+sustainability. In Gunderson, L.H. and Holling, C.S. (eds.). Panarchy, understanding 
+
+transformations in human and natural systems. Washington D.C.: Island press 
+
+50. Root, T.L. and Schneider, S.H., 1995. Ecology and climate: research strategies and 
+implications. American association for advancement of science. Vol 269 (5222). pp 334-
+
+341. 
+
+51. Schreurs, M.A. 2008. From the bottom up: local and subnational climate change politics. 
+Journal of environment and development. Vol 17 (4). pp 343-355 
+
+52. Smit, B. and Wandel, J. 2006. Adaptation, adaptive capacity and vulnerability. Global 
+
+Environmental Change. Vol 16, pp 282-292. 
+
+53. Stephen, L. 2004. In Bankoff, G., Frerks, G., and Hilhorst, D (eds). Mapping 
+
+Vulnerability. Disasters, development and people. Earthscan.London 
+
+54. Turner II, B.L., Kasperson, R.E., Matson, P.A., McCarthy, J.J., Corell, R.W., 
+
+Christensen, L., Eckley, N., Kasperson, J.X., Luers, A., Martelo, M.L., Polsky, C., 
+
+Pulsipher, A., Schiller, A. 2003a. A framework for vulnerability analysis in sustainability 
+
+science. PNAS. Vol 100(14).pp 8074-8079 
+
+55. Turner II, B.L., Matson, P.A., McCarthy, J.J., Corell, R.W., Christensen, L., Eckley, N., 
+
+Hovelsrud-broda, G.K.,  Kasperson, J.X., Kasperson, R.E., Luers, A., Martelo, M.L., 
+
+Mathiesen, S., Naylor, R., Polsky, C., Pulsipher, A.,  Andrew, S., Selin, H., Tyler, N. 
+
+2003b. Illustrating the coupled human-environment system: three case studies. PNAS. 
+
+Vol 100(14).pp 8080-8035 
+
+
+
+31 
+
+ 
+
+56. van Aalst, M.K., Cannon, T and Burton, I. 2008. Community level adaptation to climate 
+
+change: the potential role of participatory community risk assessment. Global 
+
+environmental change. Vol 18.pp 165-179 
+
+57. Vennix. J.A.M., 1996. Group model building, facilitating team learning using systems 
+
+dynamics. New York: John wiley and sons 
+
+58. Verweij, M., Douglas, M., Ellis, R., Engel, F.H., Lohmann, S., Ney, S., Rayner, S. and 
+
+Thompson, M. 2006.  The case of clumsiness. In Verweij and Thompson (eds.). Clumpsy 
+
+solutions for a complex world, governance, politics and plural perceptions. New York: 
+
+Palgrave macmillan 
+
+59. Waldrop, M.M. 1992. Chapter 5: Master of the game. In Waldrop, M.M. Complexity. 
+
+New York: Touchstone book published by Simon and Schuster 
+
+60.  Waldrop, M.M. 1992. Chapter 8: Waiting for carnot. In Waldrop, M.M. Complexity. 
+
+New York: Touchstone book published by Simon and Schuster 
+
+61. Westley F. 1995. Governing design: the management of social systems and ecosystems 
+
+management. In: Gunderson LH, Holling CS, Light SS, (eds). Barriers and bridges to the 
+
+renewal of ecosystems and institutions. New York: Columbia University Press. 
+
+62. Westley, F.W., Carpenter, S.R., Brock, W.A., Holling, C.S. and Gunderson, L.H. 2002. 
+
+Why systems of people and nature are not just social and ecological systems. In 
+
+Gunderson, L.H. and Holling, C.S. (eds.). Panarchy, understanding transformations in 
+
+human and natural systems. Washington D.C.: Island press 
+
+63. Whitaker JK. 1987. Alfred Marshall. In: Eatwell J, Milgate M, Newman P, editors. The 
+
+new Palgrave: a dictionary of economics. London: MacMillan Press. 
+
+64. Willbanks, T.J. and Kates, R.W. 1999. Global change in local places: How scale matters. 
+
+Climatic change. Vol 43. pp 601-628. 
+
+65.  Zermoglio, F.M.,   van Jaarsveld, A., Reid, W.V., Romm, J. Biggs, R.,  Tianxiang, Y. 
+2003. Chapter 4. Multi-scale approach. In Millennium Ecosystem Assessment.  
+
+ 
+
+ 
+
+ 
+                                                             
+i
+ The degree, duration, and/or extent in which the system is in contact with, or subject to, the perturbation (Adger, 
+
+2006).However, exposure is often described as inseparable from the notion of sensitivity (Smit and Wandel, 2006). 
+ii
+ The degree to which a system is affected, either adversely or beneficially, by climate-related stimuli (McCarthy et 
+
+al.,2001). 
+iii
+
+ The ability of a system to adjust to climate change, including climate variability and extremes, to moderate 
+
+potential damages, to take advantage of opportunities, or to cope with the consequences(McCarthy et al., 2001). 
+iv
+ As found in Ahom buranjis 
+
+v
+ Observation made in the field through participant observation for two weeks 
+
+vi
+ Interviews and discussions with Dr Sarat Kumar Phukan, author of Onomastics Assam and The study of 
+
+Hodonomy 
+
+
+
+32 
+
+ 
+
+                                                                                                                                                                                                    
+vii
+
+ Information gathered from Agriculture Sub-division Office, Dhakuakhana Sub division, Lakhimpur district, 
+
+Assam  
+viii
+
+ From news paper articles in TIMES OF INDIA, Guwahati edition in the month of July, 2010 
+
+
