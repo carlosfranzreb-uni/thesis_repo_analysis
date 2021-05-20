@@ -5,8 +5,9 @@ import os
 import re
 
 
-regexp = re.compile('depositonce_[0-9.]+_[0-9]+')
-folder = '../data/texts/txt/depositonce'
+repo = 'refubium'
+regexp = re.compile(f'{repo}_[0-9.]+_[0-9]+')
+folder = f'../data/texts/txt/{repo}'
 for f in os.listdir(folder):
   if regexp.match(f):
     os.remove(f'{folder}/{f}')
