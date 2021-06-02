@@ -13,6 +13,7 @@ import json
 import logging
 from tika import parser
 from time import sleep, time
+from string import Template
 
 
 oai = '{http://www.openarchives.org/OAI/2.0/}'
@@ -28,7 +29,6 @@ class Harvester:
     self.existing_txt = os.listdir(self.txt_folder)
     self.existing_pdf = os.listdir(self.pdf_folder)
     self.metadata_prefix = format
-    self.rejected_langs = set()
     self.data = json.load(open(f'../../data/processed/oai_dc/{repo}.json'))
 
   def request(self, verb, params=dict()):
@@ -75,43 +75,45 @@ class Harvester:
         continue
       elif 'status' in header.attrib and header.attrib['status'] == 'deleted':
         continue
-      id = header.find(f'{oai}identifier').text
-      metadata = record.find(f'{oai}metadata').find(f'{xoai}metadata')
-      lang = self.find_lang(metadata)
-      if lang in ('en', 'eng') and self.correct_type(id):
-        try:
-          bundle = self.get_bundle(metadata)
-          if bundle is None:
-            logging.info(f"No original bundle was found for {id}.")
-            continue
-          link = self.get_link(bundle)
-          if link is None:
-            logging.info(f"No link was found in the original bundle for {id}.")
-            continue
-          elif 'pdf' not in link.lower():
-            logging.info(f"Link of {id} is not of pdf format: {link}.")
-            continue
-          filename = self.pdf_folder.split('/')[-1] + '_' + id.split('/')[-1]
-        except AttributeError:
-          logging.error(f"An error occured when looking for the link of {id}.")
-          continue
-        try:
-          res = req.get(link)
-        except UnicodeDecodeError:
-          logging.error(f'{filename} couldn\'t be decoded')
-          continue
-        if f'{filename}.txt' in self.existing_txt:
-          logging.info(f'File {filename} has already been retrieved.')
-          continue
-        elif f'{filename}.txt' in os.listdir(self.txt_folder):
-          logging.info(f'File name {filename} already exists.')
-          filename += f"_{int(time())}"
-        f = Path(f'{self.pdf_folder}/{filename}.pdf')
-        f.write_bytes(res.content)
-        self.parse_pdf(filename)
-        sleep(5)
       else:
-        self.rejected_langs.add(lang)
+        id = header.find(f'{oai}identifier').text
+        self.parse_record(record, id)
+
+  def parse_record(self, record, id):
+    metadata = record.find(f'{oai}metadata').find(f'{xoai}metadata')
+    lang = self.find_lang(metadata)
+    if lang in ('en', 'eng') and self.correct_type(id):
+      try:
+        bundle = self.get_bundle(metadata)
+        if bundle is None:
+          logging.info(f"No original bundle was found for {id}.")
+          return
+        link = self.get_link(bundle)
+        if link is None:
+          logging.info(f"No link was found in the original bundle for {id}.")
+          return
+        elif 'pdf' not in link.lower():
+          logging.info(f"Link of {id} is not of pdf format: {link}.")
+          return
+        filename = self.pdf_folder.split('/')[-1] + '_' + id.split('/')[-1]
+      except AttributeError:
+        logging.error(f"An error occured when looking for the link of {id}.")
+        return
+      try:
+        res = req.get(link)
+      except UnicodeDecodeError:
+        logging.error(f'{filename} couldn\'t be decoded')
+        return
+      if f'{filename}.txt' in self.existing_txt:
+        logging.info(f'File {filename} has already been retrieved.')
+        return
+      elif f'{filename}.txt' in os.listdir(self.txt_folder):
+        logging.info(f'File name {filename} already exists.')
+        filename += f"_{int(time())}"
+      f = Path(f'{self.pdf_folder}/{filename}.pdf')
+      f.write_bytes(res.content)
+      self.parse_pdf(filename)
+      sleep(5)
 
   def find_lang(self, metadata):
     """ Return the language of the item. """
@@ -170,7 +172,7 @@ class Harvester:
       logging.error(f"Parsing of {filename} failed.")
 
 
-if __name__ == "__main__":
+def main_retrieve_all():
   logging.basicConfig(
     filename=f"../../logs/{str(int(time()))}.log",
     format='%(asctime)s %(message)s',
@@ -183,6 +185,29 @@ if __name__ == "__main__":
   harvester = Harvester(url, format, repo)
   token = None
   harvester.retrieve_all(token)
-  logging.info(f'Rejected languages in {repo}: {harvester.rejected_langs}')
   logging.info(f'END OF {repo}')
-  
+
+
+def retrieve_list(ids):
+  """ Retrieve the files of the records with the given IDs. """
+  logging.basicConfig(
+    filename=f"../../logs/{str(int(time()))}.log",
+    format='%(asctime)s %(message)s',
+    level=logging.INFO
+  )
+  url = 'https://refubium.fu-berlin.de/oai/request'
+  format = 'xoai'
+  repo = 'refubium'
+  logging.info(f'START OF {repo}')
+  harvester = Harvester(url, format, repo)
+  id_template = Template('oai:refubium.fu-berlin.de:fub188/$id')
+  for id in ids:
+    oai_id = id_template.substitute(id=id)
+    res = harvester.request('GetRecord', {'identifier': oai_id})
+    harvester.parse_record(ET.fromstring(res.text).find(f'{oai}GetRecord')[0], id)
+    import sys; sys.exit(0)
+
+
+if __name__ == "__main__":
+  ids = json.load(open('../../scripts/refubium_missing.json'))
+  retrieve_list(ids)
