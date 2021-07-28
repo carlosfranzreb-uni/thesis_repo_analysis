@@ -33,12 +33,12 @@ def get_data(folder, relevant_ids, dump):
         if 'qualifier' in f.attrib and f.attrib['qualifier'] == 'abstract':
           if 'lang' in f.attrib and f.attrib['lang'] in ('en', 'eng'):
             docs[id]['abstract'] = f.text
-          elif 'abstract' not in docs[id]:
+          elif docs[id]['abstract'] is None:
             docs[id]['abstract'] = f.text
         elif 'element' in f.attrib and f.attrib['element'] == 'title':
           if 'lang' in f.attrib and f.attrib['lang'] in ('en', 'eng'):
             docs[id]['title'] = f.text
-          elif 'title' not in docs[id]:
+          elif docs[id]['title'] is None:
             docs[id]['title'] = f.text
   json.dump(docs, open(dump, 'w'))
 
