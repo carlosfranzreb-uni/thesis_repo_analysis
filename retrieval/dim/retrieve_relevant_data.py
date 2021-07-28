@@ -12,8 +12,8 @@ dc = '{http://purl.org/dc/elements/1.1/}'
 dim = '{http://www.dspace.org/xmlns/dspace/dim}'
 
 
-def get_abstracts(folder, relevant_ids, dump):
-  """ Returns a dict with the ids as keys and the types as values. """
+def get_data(folder, relevant_ids, dump):
+  """ Returns a dict with the ids as keys and the title and abstract as values. """
   docs = dict()    
   for f in os.listdir(folder):
     root = ET.parse(f'{folder}/{f}').getroot()
@@ -27,21 +27,39 @@ def get_abstracts(folder, relevant_ids, dump):
       id = header.find(f'{oai}identifier').text
       if id not in relevant_ids:
         continue
-      docs[id] = None
+      docs[id] = {'title': None, 'abstract': None}
       metadata = record.find(f'{oai}metadata').find(f'{dim}dim')
       for f in metadata.findall(f'{dim}field'):
         if 'qualifier' in f.attrib and f.attrib['qualifier'] == 'abstract':
           if 'lang' in f.attrib and f.attrib['lang'] in ('en', 'eng'):
-            docs[id] = f.text
+            docs[id]['abstract'] = f.text
+            break
+        if 'element' in f.attrib and f.attrib['element'] == 'title':
+          if 'lang' in f.attrib:
+            if f.attrib['lang'] in ('en', 'eng'):
+              docs[id]['title'] = f.text
+              break
+          else:
+            docs[id]['title'] = f.text
             break
   json.dump(docs, open(dump, 'w'))
 
 
-if __name__ == "__main__":
+def merge_data():
+  """ Merge the data extracted for each repository. """
+  res = {}
   for repo in ('depositonce', 'edoc', 'refubium'):
-    get_abstracts(
-      f'../../data/xml/dim/{repo}',
-      json.load(open(f'../../data/json/dim/{repo}/relevant_ids.json')),
-      f'../../data/json/dim/{repo}/relevant_abstracts.json'
-    )
+    data = json.load(open(f'../../data/json/dim/{repo}/relevant_data.json'))
+    res.update(data)
+  json.dump(res, open('../../data/json/dim/all/relevant_data.json', 'w'))
+
+
+if __name__ == "__main__":
+  # for repo in ('depositonce', 'edoc', 'refubium'):
+  #   get_data(
+  #     f'../../data/xml/dim/{repo}',
+  #     json.load(open(f'../../data/json/dim/{repo}/relevant_ids.json')),
+  #     f'../../data/json/dim/{repo}/relevant_data.json'
+  #   )
+  merge_data()
     
