@@ -33,15 +33,13 @@ def get_data(folder, relevant_ids, dump):
         if 'qualifier' in f.attrib and f.attrib['qualifier'] == 'abstract':
           if 'lang' in f.attrib and f.attrib['lang'] in ('en', 'eng'):
             docs[id]['abstract'] = f.text
-            break
-        if 'element' in f.attrib and f.attrib['element'] == 'title':
-          if 'lang' in f.attrib:
-            if f.attrib['lang'] in ('en', 'eng'):
-              docs[id]['title'] = f.text
-              break
-          else:
+          elif 'abstract' not in docs[id]:
+            docs[id]['abstract'] = f.text
+        elif 'element' in f.attrib and f.attrib['element'] == 'title':
+          if 'lang' in f.attrib and f.attrib['lang'] in ('en', 'eng'):
             docs[id]['title'] = f.text
-            break
+          elif 'title' not in docs[id]:
+            docs[id]['title'] = f.text
   json.dump(docs, open(dump, 'w'))
 
 
@@ -49,17 +47,17 @@ def merge_data():
   """ Merge the data extracted for each repository. """
   res = {}
   for repo in ('depositonce', 'edoc', 'refubium'):
-    data = json.load(open(f'../../data/json/dim/{repo}/relevant_data.json'))
+    data = json.load(open(f'data/json/dim/{repo}/relevant_data.json'))
     res.update(data)
-  json.dump(res, open('../../data/json/dim/all/relevant_data.json', 'w'))
+  json.dump(res, open('data/json/dim/all/relevant_data.json', 'w'))
 
 
 if __name__ == "__main__":
-  # for repo in ('depositonce', 'edoc', 'refubium'):
-  #   get_data(
-  #     f'../../data/xml/dim/{repo}',
-  #     json.load(open(f'../../data/json/dim/{repo}/relevant_ids.json')),
-  #     f'../../data/json/dim/{repo}/relevant_data.json'
-  #   )
+  for repo in ('depositonce', 'edoc', 'refubium'):
+    get_data(
+      f'data/xml/dim/{repo}',
+      json.load(open(f'data/json/dim/{repo}/relevant_ids.json')),
+      f'data/json/dim/{repo}/relevant_data.json'
+    )
   merge_data()
     
