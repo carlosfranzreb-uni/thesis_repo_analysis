@@ -8,7 +8,7 @@ from langdetect import detect_langs
 def detect_foreign():
   """ Iterate through the documents in 'relevant_data.json' and store the IDs
   of the docs that either their title or abstract is not in english. """
-  data = json.load(open('data/json/dim/all/relevant_data_v2.json'))
+  data = json.load(open('data/json/dim/all/relevant_data.json'))
   foreign = {'title': [], 'abstract': []}
   for id, texts in data.items():
     for text_type in ('title', 'abstract'):
