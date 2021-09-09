@@ -59,7 +59,7 @@ if __name__ == "__main__":
     get_data(
       f'data/xml/dim/{repo}',
       json.load(open(f'data/json/dim/{repo}/relevant_ids.json')),
-      f'data/json/dim/{repo}/relevant_data_v2.json'
+      f'data/json/dim/{repo}/relevant_data.json'
     )
   merge_data()
     
