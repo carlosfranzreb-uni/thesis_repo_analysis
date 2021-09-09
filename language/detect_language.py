@@ -3,6 +3,7 @@
 
 import json
 from langdetect import detect_langs
+from langdetect.lang_detect_exception import LangDetectException
 
 
 def detect_foreign():
@@ -28,7 +29,11 @@ def detect_language(text, prob=.99, n=10):
   probs = []
   foreign_language = None
   for _ in range(n):
-    langs = detect_langs(text)
+    try:
+      langs = detect_langs(text)
+    except LangDetectException:
+      print(text)
+      return None
     if langs[0].lang != 'en' and langs[0].prob > .99:
       probs.append(langs[0].prob)
       if foreign_language is None:
