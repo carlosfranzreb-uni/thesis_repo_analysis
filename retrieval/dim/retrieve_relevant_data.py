@@ -36,6 +36,8 @@ def get_data(folder, relevant_ids, dump):
           elif docs[id]['abstract'] is None:
             docs[id]['abstract'] = f.text
         elif 'element' in f.attrib and f.attrib['element'] == 'title':
+          if 'qualifier' in f.attrib and f.attrib['qualifier'] == 'subtitle':
+            continue
           if 'lang' in f.attrib and f.attrib['lang'] in ('en', 'eng'):
             docs[id]['title'] = f.text
           elif docs[id]['title'] is None:
@@ -57,7 +59,7 @@ if __name__ == "__main__":
     get_data(
       f'data/xml/dim/{repo}',
       json.load(open(f'data/json/dim/{repo}/relevant_ids.json')),
-      f'data/json/dim/{repo}/relevant_data.json'
+      f'data/json/dim/{repo}/relevant_data_v2.json'
     )
   merge_data()
     
