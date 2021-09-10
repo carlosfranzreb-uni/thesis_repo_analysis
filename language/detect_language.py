@@ -16,7 +16,7 @@ def detect_foreign():
       if texts[text_type] is not None:
         out = detect_language(texts[text_type])
         if out is not None:
-          foreign[text_type] = (id, out[0], out[1])
+          foreign[text_type].append((id, out[0], out[1]))
   json.dump(foreign, open('data/json/dim/all/foreign_languages.json', 'w'))
 
 
