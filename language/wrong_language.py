@@ -62,15 +62,14 @@ def get_repo(doc_id):
 def get_titles():
   """ Looking at the docs in 'foreign_languages.json', how many of them
   have more than one title? """
-  cnt, total = 0, 0
+  res = {}
   foreign = json.load(open('../data/json/dim/all/foreign_languages.json'))
   for doc, _, _ in foreign['title']:
-    total += 1
     fields = get_fields(doc, element='title')
     if len(fields) > 0:
-      print(f'{doc} has two titles: {[(f.text, f.attrib) for f in fields]}')
-      cnt += 1
-  print(cnt, total)
+      res['id'] = [{'text': f.text, 'attribs': f.attrib} for f in fields]
+  json.dump(res, open('../data/json/dim/all/foreign_titles.json', 'w'))
+
 
 
 if __name__ == '__main__':
