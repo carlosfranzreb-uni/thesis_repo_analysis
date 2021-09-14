@@ -7,6 +7,8 @@ import json
 from xml.etree import ElementTree as ET
 import os
 
+from detect_language import detect_language
+
 
 oai = '{http://www.openarchives.org/OAI/2.0/}'
 oai_dc = '{http://www.openarchives.org/OAI/2.0/oai_dc/}'
@@ -71,6 +73,23 @@ def get_titles():
   json.dump(res, open('../data/json/dim/all/foreign_titles.json', 'w'))
 
 
+def get_english_titles():
+  """ Using the titles retrieved by get_titles(), return those that are in
+  English by using langdetect."""
+  data = json.dump(open('../data/json/dim/all/foreign_titles.json'))
+  res = {}
+  for id, titles in data.items():
+    best_prob = -1  # probability that a text is in English
+    best_text = None
+    for text, _ in titles.values():
+      lang, prob = detect_language(text)
+      if lang == 'en' and prob > best_prob:
+        best_prob = prob
+        best_text = text
+    res[id] = best_text
+  json.dump(res, open('../data/json/dim/all/best_titles.json', 'w'))
+
+
 
 if __name__ == '__main__':
-  get_titles()
+  get_english_titles()
