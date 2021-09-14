@@ -76,7 +76,7 @@ def get_titles():
 def get_english_titles():
   """ Using the titles retrieved by get_titles(), return those that are in
   English by using langdetect."""
-  data = json.dump(open('../data/json/dim/all/foreign_titles.json'))
+  data = json.load(open('../data/json/dim/all/foreign_titles.json'))
   res = {}
   for id, titles in data.items():
     best_prob = -1  # probability that a text is in English
