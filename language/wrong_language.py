@@ -33,22 +33,14 @@ def get_record(id):
         return record
 
 
-def get_fields(id, element=None, qualifier=None):
+def get_fields(id, tag, value):
   """ Get the field with the given element and qualifier. """
   fields = []
   record = get_record(id)
   metadata = record.find(f'{oai}metadata').find(f'{dim}dim')
   for f in metadata.findall(f'{dim}field'):
-    if element is not None:
-      if 'element' in f.attrib and f.attrib['element'] == element:
-        if qualifier is not None:
-          if 'qualifier' in f.attrib and f.attrib['qualifier'] == qualifier:
-            fields.append(f)
-        else:
-          fields.append(f)
-    elif qualifier is not None:
-      if 'qualifier' in f.attrib and f.attrib['qualifier'] == qualifier:
-        fields.append(f)
+    if tag in f.attrib and f.attrib[tag] == value:
+      fields.append(f)
   return fields
 
 
@@ -62,22 +54,22 @@ def get_repo(doc_id):
     return 'refubium'
 
 
-def get_titles():
+def get_texts(tag, value):
   """ Looking at the docs in 'foreign_languages.json', how many of them
-  have more than one title? """
+  have more than one value? Value can be either title or abstract. """
   res = {}
   foreign = json.load(open('data/json/dim/all/foreign_languages.json'))
-  for doc, _, _ in foreign['title']:
-    fields = get_fields(doc, element='title')
+  for doc, _, _ in foreign[value]:
+    fields = get_fields(doc, tag, value)
     if len(fields) > 0:
       res[doc] = [{'text': f.text, 'attribs': f.attrib} for f in fields]
-  json.dump(res, open('data/json/dim/all/foreign_titles.json', 'w'))
+  json.dump(res, open(f'data/json/dim/all/foreign_{value}s.json', 'w'))
 
 
-def get_english_titles():
-  """ Using the titles retrieved by get_titles(), return those that are in
+def get_english_texts(value):
+  """ Using the texts retrieved by get_texts(), return those that are in
   English by using langdetect."""
-  data = json.load(open('data/json/dim/all/foreign_titles.json'))
+  data = json.load(open(f'data/json/dim/all/foreign_{value}s.json'))
   res = {}
   for id, titles in data.items():
     best_prob = -1  # probability that a text is in English
@@ -89,7 +81,7 @@ def get_english_titles():
         best_prob = out[1]
         best_text = text
       res[id] = best_text
-  json.dump(res, open('data/json/dim/all/best_titles.json', 'w'))
+  json.dump(res, open(f'data/json/dim/all/best_{value}s.json', 'w'))
 
 
 def detect_language(text, n=10):
@@ -113,4 +105,5 @@ def detect_language(text, n=10):
 
 
 if __name__ == '__main__':
-  get_english_titles()
+  get_texts('qualifier', 'abstract')
+  get_english_texts('abstract')
