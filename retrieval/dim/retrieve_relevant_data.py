@@ -31,16 +31,18 @@ def get_data(folder, relevant_ids, dump):
       metadata = record.find(f'{oai}metadata').find(f'{dim}dim')
       for f in metadata.findall(f'{dim}field'):
         if 'qualifier' in f.attrib and f.attrib['qualifier'] == 'abstract':
-          if 'lang' in f.attrib and f.attrib['lang'] in ('en', 'eng'):
-            docs[id]['abstract'] = f.text
-          elif docs[id]['abstract'] is None:
+          if 'lang' in f.attrib:
+            if f.attrib['lang'] in ('en', 'eng'):
+              docs[id]['abstract'] = f.text
+          elif docs[id]['abstract'] is None:  # no lang is specified
             docs[id]['abstract'] = f.text
         elif 'element' in f.attrib and f.attrib['element'] == 'title':
           if 'qualifier' in f.attrib and f.attrib['qualifier'] == 'subtitle':
             continue
-          if 'lang' in f.attrib and f.attrib['lang'] in ('en', 'eng'):
-            docs[id]['title'] = f.text
-          elif docs[id]['title'] is None:
+          if 'lang' in f.attrib:
+            if f.attrib['lang'] in ('en', 'eng'):
+              docs[id]['title'] = f.text
+          elif docs[id]['title'] is None:  # no lang is specified
             docs[id]['title'] = f.text
   json.dump(docs, open(dump, 'w'))
 
