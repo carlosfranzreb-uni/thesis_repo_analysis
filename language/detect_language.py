@@ -45,5 +45,6 @@ def detect_language(text, prob=.99, n=10):
       return None
   return (foreign_language, sum(probs)/len(probs))
 
+
 if __name__ == "__main__":
   detect_foreign()
