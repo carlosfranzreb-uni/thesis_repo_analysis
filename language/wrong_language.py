@@ -7,7 +7,8 @@ import json
 from xml.etree import ElementTree as ET
 import os
 
-from detect_language import detect_language
+from langdetect import detect_langs
+from langdetect.lang_detect_exception import LangDetectException
 
 
 oai = '{http://www.openarchives.org/OAI/2.0/}'
@@ -18,7 +19,7 @@ dim = '{http://www.dspace.org/xmlns/dspace/dim}'
 
 def get_record(id):
   """ Return the record of the document with the given ID. """
-  folder = f'../data/xml/dim/{get_repo(id)}'
+  folder = f'data/xml/dim/{get_repo(id)}'
   for f in os.listdir(folder):
     root = ET.parse(f'{folder}/{f}').getroot()
     records = root.find(f'{oai}ListRecords')
@@ -65,18 +66,18 @@ def get_titles():
   """ Looking at the docs in 'foreign_languages.json', how many of them
   have more than one title? """
   res = {}
-  foreign = json.load(open('../data/json/dim/all/foreign_languages.json'))
+  foreign = json.load(open('data/json/dim/all/foreign_languages.json'))
   for doc, _, _ in foreign['title']:
     fields = get_fields(doc, element='title')
     if len(fields) > 0:
       res[doc] = [{'text': f.text, 'attribs': f.attrib} for f in fields]
-  json.dump(res, open('../data/json/dim/all/foreign_titles.json', 'w'))
+  json.dump(res, open('data/json/dim/all/foreign_titles.json', 'w'))
 
 
 def get_english_titles():
   """ Using the titles retrieved by get_titles(), return those that are in
   English by using langdetect."""
-  data = json.load(open('../data/json/dim/all/foreign_titles.json'))
+  data = json.load(open('data/json/dim/all/foreign_titles.json'))
   res = {}
   for id, titles in data.items():
     best_prob = -1  # probability that a text is in English
@@ -88,8 +89,27 @@ def get_english_titles():
         best_prob = out[1]
         best_text = text
       res[id] = best_text
-  json.dump(res, open('../data/json/dim/all/best_titles.json', 'w'))
+  json.dump(res, open('data/json/dim/all/best_titles.json', 'w'))
 
+
+def detect_language(text, n=10):
+  """ Detect the language of a text by running the 'detect_langs' function
+  on the text 'n' times. Return the language and the avg. prob. If the language
+  changes from one iteration to another, return None. """
+  probs = []
+  language = None
+  for _ in range(n):
+    try:
+      langs = detect_langs(text)
+    except LangDetectException:
+      print(text)
+      return None
+    probs.append(langs[0].prob)
+    if language is None:
+      language = langs[0].lang
+    elif language != langs[0].lang:
+        return None
+  return (language, sum(probs)/len(probs))
 
 
 if __name__ == '__main__':
