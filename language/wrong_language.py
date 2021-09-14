@@ -81,12 +81,13 @@ def get_english_titles():
   for id, titles in data.items():
     best_prob = -1  # probability that a text is in English
     best_text = None
-    for text, _ in titles.values():
-      lang, prob = detect_language(text)
-      if lang == 'en' and prob > best_prob:
-        best_prob = prob
-        best_text = text
-    res[id] = best_text
+    for obj in titles:
+      for text, _ in obj.values():
+        lang, prob = detect_language(text)
+        if lang == 'en' and prob > best_prob:
+          best_prob = prob
+          best_text = text
+      res[id] = best_text
   json.dump(res, open('../data/json/dim/all/best_titles.json', 'w'))
 
 
