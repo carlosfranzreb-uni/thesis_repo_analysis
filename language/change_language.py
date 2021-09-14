@@ -8,25 +8,35 @@ import logging
 from time import time
 
 
-
 def improve():
   data = json.load(open('data/json/dim/all/relevant_data.json'))
   titles = json.load(open('data/json/dim/all/best_titles.json'))
   abstracts = json.load(open('data/json/dim/all/best_abstracts.json'))
   for id in data:
+    if id not in titles:
+      titles[id] = None
+    if id not in abstracts:
+      abstracts[id] = None
     best = {'title': titles[id], 'abstract': abstracts[id]}
     for key in best:
       if best[key] is not None:
         if data[id][key] != best[key]:
-          logging.info(f'Change {key} of id from {data[id][key]} to {best[key]}.')
+          old_short = data[id][key][:10] + '...' if len(data[id][key]) > 10 \
+            else data[id][key]
+          new_short = best[key][:10] + '...' if len(best[key]) > 10 else best[key]
+          logger.info(
+            f'Change {key} of {id} from "{old_short}" to "{new_short}".'
+          )
           data[id][key] = best[key]
   json.dump(data, open('data/json/dim/all/improved_data.json', 'w'))
 
 
 if __name__ == '__main__':
-  logging.basicConfig(
-    filename=f"logs/changelang_{str(int(time()))}.log",
-    format='%(asctime)s %(message)s',
-    level=logging.INFO
+  logger= logging.getLogger()
+  logger.setLevel(logging.INFO)
+  handler = logging.FileHandler(
+    f"logs/changelang_{str(int(time()))}.log", 'w', 'utf-8'
   )
+  handler.setFormatter(logging.Formatter('%(asctime)s %(message)s'))
+  logger.addHandler(handler)
   improve()
