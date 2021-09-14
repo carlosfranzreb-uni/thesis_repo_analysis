@@ -69,7 +69,7 @@ def get_titles():
   for doc, _, _ in foreign['title']:
     fields = get_fields(doc, element='title')
     if len(fields) > 0:
-      res[id] = [{'text': f.text, 'attribs': f.attrib} for f in fields]
+      res[doc] = [{'text': f.text, 'attribs': f.attrib} for f in fields]
   json.dump(res, open('../data/json/dim/all/foreign_titles.json', 'w'))
 
 
@@ -93,4 +93,4 @@ def get_english_titles():
 
 
 if __name__ == '__main__':
-  get_english_titles()
+  get_titles()
