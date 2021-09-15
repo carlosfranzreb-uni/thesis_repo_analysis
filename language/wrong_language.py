@@ -105,5 +105,7 @@ def detect_language(text, n=10):
 
 
 if __name__ == '__main__':
+  get_texts('element', 'title')
+  get_english_texs('title')
   get_texts('qualifier', 'abstract')
   get_english_texts('abstract')
