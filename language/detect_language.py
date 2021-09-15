@@ -6,10 +6,10 @@ from langdetect import detect_langs
 from langdetect.lang_detect_exception import LangDetectException
 
 
-def detect_foreign():
-  """ Iterate through the documents in 'relevant_data.json' and store the IDs
+def detect_foreign(data_file, dump_file):
+  """ Iterate through the documents in 'data_file' and store the IDs
   of the docs that either their title or abstract is not in english. """
-  data = json.load(open('data/json/dim/all/relevant_data.json'))
+  data = json.load(open(data_file))
   foreign = {'title': [], 'abstract': []}
   for id, texts in data.items():
     for text_type in ('title', 'abstract'):
@@ -17,7 +17,7 @@ def detect_foreign():
         out = detect_language(texts[text_type])
         if out is not None:
           foreign[text_type].append((id, out[0], out[1]))
-  json.dump(foreign, open('data/json/dim/all/foreign_languages.json', 'w'))
+  json.dump(foreign, open(dump_file, 'w'))
 
 
 def detect_language(text, prob=.99, n=10):
@@ -47,4 +47,6 @@ def detect_language(text, prob=.99, n=10):
 
 
 if __name__ == "__main__":
-  detect_foreign()
+  data_file = 'data/json/dim/all/improved_data.json'
+  dump_file = 'data/json/dim/all/foreign_languages_improved.json'
+  detect_foreign(data_file, dump_file)
