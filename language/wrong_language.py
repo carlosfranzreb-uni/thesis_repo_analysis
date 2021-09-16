@@ -58,12 +58,12 @@ def get_texts(tag, value):
   """ Looking at the docs in 'foreign_languages.json', how many of them
   have more than one value? Value can be either title or abstract. """
   res = {}
-  foreign = json.load(open('data/json/dim/all/foreign_languages.json'))
+  foreign = json.load(open('data/json/dim/all/language/foreign_languages.json'))
   for doc, _, _ in foreign[value]:
     fields = get_fields(doc, tag, value)
     if len(fields) > 0:
       res[doc] = [{'text': f.text, 'attribs': f.attrib} for f in fields]
-  json.dump(res, open(f'data/json/dim/all/foreign_{value}s.json', 'w'))
+  json.dump(res, open(f'data/json/dim/all/language/foreign_{value}s.json', 'w'))
 
 
 def get_english_texts(value):
@@ -81,7 +81,7 @@ def get_english_texts(value):
         best_prob = out[1]
         best_text = text
       res[id] = best_text
-  json.dump(res, open(f'data/json/dim/all/best_{value}s.json', 'w'))
+  json.dump(res, open(f'data/json/dim/all/language/best_{value}s.json', 'w'))
 
 
 def detect_language(text, n=10):
@@ -106,6 +106,6 @@ def detect_language(text, n=10):
 
 if __name__ == '__main__':
   get_texts('element', 'title')
-  get_english_texs('title')
+  get_english_texts('title')
   get_texts('qualifier', 'abstract')
   get_english_texts('abstract')

@@ -10,8 +10,8 @@ from time import time
 
 def improve():
   data = json.load(open('data/json/dim/all/relevant_data.json'))
-  titles = json.load(open('data/json/dim/all/best_titles.json'))
-  abstracts = json.load(open('data/json/dim/all/best_abstracts.json'))
+  titles = json.load(open('data/json/dim/all/language/best_titles.json'))
+  abstracts = json.load(open('data/json/dim/all/language/best_abstracts.json'))
   for id in data:
     if id not in titles:
       titles[id] = None

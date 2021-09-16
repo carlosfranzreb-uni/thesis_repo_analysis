@@ -48,5 +48,5 @@ def detect_language(text, prob=.99, n=10):
 
 if __name__ == "__main__":
   data_file = 'data/json/dim/all/improved_data.json'
-  dump_file = 'data/json/dim/all/foreign_languages_improved.json'
+  dump_file = 'data/json/dim/all/language/foreign_languages_improved.json'
   detect_foreign(data_file, dump_file)
